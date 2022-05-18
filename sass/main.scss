@@ -1,4 +1,11 @@
 @import './variables-mixins/variables';
 @import './variables-mixins/mixins';
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 @import './components/page.scss';
 
