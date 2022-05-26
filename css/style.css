@@ -5,10 +5,15 @@ body {
 }
 
 header {
-  background-color: #f06f60;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to top, #fff 50%, #f06f60 50%);
+  display: flex;
+  justify-content: center;
 }
 header img {
-  width: 100%;
+  width: 40%;
+  margin: auto auto;
 }
 
 .sponsors h4 {
@@ -26,28 +31,35 @@ header img {
   margin: 2rem;
 }
 
-footer {
+footer .custom-shape-divider-bottom-1653580017 {
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+footer .custom-shape-divider-bottom-1653580017 svg {
+  position: relative;
+  display: block;
+  width: calc(156% + 1.3px);
+  height: 81px;
+}
+footer .custom-shape-divider-bottom-1653580017 .shape-fill {
+  fill: #F06F60;
+}
+footer .footer-section {
   height: 225px;
   width: 100%;
-}
-footer svg {
-  position: relative;
-  top: 5px;
-}
-footer section {
-  height: 125px;
   background-color: #f06f60;
   display: flex;
   align-items: flex-start;
   justify-content: center;
+  align-items: center;
   text-align: center;
-  padding-bottom: 1rem;
 }
-footer section p {
-  margin-top: 1px;
+footer .footer-section p {
   font-size: 36px;
 }
-footer section p span {
+footer .footer-section p span {
   border-bottom: 1px solid black;
 }
 
