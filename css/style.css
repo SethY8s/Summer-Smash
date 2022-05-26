@@ -27,6 +27,7 @@ header img {
 .sponsors .sponsors-flex-container div {
   height: 200px;
   width: 200px;
+  border-radius: 50%;
   background-color: aquamarine;
   margin: 2rem;
 }
