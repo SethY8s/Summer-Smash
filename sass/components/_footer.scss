@@ -1,0 +1,30 @@
+footer {
+  height: 225px;
+  width: 100%;
+//   position: absolute;
+//   bottom: 0;
+
+  svg {
+    position: relative;
+    top: 5px;
+  }
+
+  section {
+    height: 125px;
+    background-color: $pink;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 1rem;
+    p{
+        
+      
+        margin-top: 1px;
+        font-size: 36px;
+        span{
+            border-bottom: 1px solid black;
+        }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.sponsors{
+    // width: 100%;
+    h4{
+    text-align: center;
+    }
+    .sponsors-flex-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        div{
+            height: 200px;
+            width: 200px;
+            background-color: aquamarine;
+            margin: 2rem;
+        }
+    }
+}
