@@ -6,14 +6,28 @@ body {
 
 header {
   width: 100%;
-  height: 33rem;
-  background: linear-gradient(to top, #fff 50%, #f06f60 50%);
+  height: 22rem;
+  background-image: url("../assets/png/wave.png");
+  background-size: cover;
+  background-position-y: 25%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
-header img {
-  width: 40%;
-  margin: auto auto;
+@media only screen and (min-width: 37.5em) {
+  header {
+    height: 100vh;
+  }
+}
+header .header-logo {
+  width: 80%;
+  position: relative;
+}
+@media only screen and (min-width: 37.5em) {
+  header .header-logo {
+    width: 40%;
+  }
 }
 
 .sponsors h4 {
