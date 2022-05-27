@@ -7,8 +7,9 @@ header {
     height: 100vh;
   }
 
-  background: linear-gradient(to top, $white 50%, $pink 50%);
-  background-image: url("../assets/png/wave.png");
+  // background: linear-gradient(to top, $white 50%, $pink 50%);
+  // background-image: url("../assets/png/wave.png");
+  background-image: url("../assets/svg/wave-background.svg");
   background-size: cover;
   background-position-y: 25%;
   
