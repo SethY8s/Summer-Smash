@@ -1,10 +1,18 @@
 
-.about{
-    height: 50rem;
+.about-top{
+    margin-top: 10rem;
 }
 
-.about-flex-container{
-    display: flex;
-    justify-content: center;
-    height: fit-content;
+
+.about{
+    // margin-top: 10rem;
+    margin-bottom: 10rem;
+    // height: 40rem;
+    background-color: $pink;
+    div{
+        height: 20rem;
+    }
 }
+
+
+

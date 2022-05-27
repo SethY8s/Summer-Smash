@@ -45,14 +45,16 @@ header .header-logo {
   border: 3px solid green;
 }
 
-.about {
-  height: 50rem;
+.about-top {
+  margin-top: 10rem;
 }
 
-.about-flex-container {
-  display: flex;
-  justify-content: center;
-  height: fit-content;
+.about {
+  margin-bottom: 10rem;
+  background-color: #f06f60;
+}
+.about div {
+  height: 20rem;
 }
 
 .sponsors {
