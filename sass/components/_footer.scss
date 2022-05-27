@@ -30,11 +30,31 @@ footer {
     justify-content: center;
     align-items: center;
     text-align: center;
+    color: #fff;
+    
     p {
+
       font-size: 36px;
-      span {
-        border-bottom: 1px solid black;
+      font-family: 'Work Sans';
+      line-height: 35px;
+      
+
+      a{
+        text-decoration: none;
+        color: #fff;
       }
+
+      
+      .footer-span-1 {
+        border-bottom: 1px solid #fff;
+        font-family: 'Cinzel';
+        font-weight: 400;
+        line-height: 65px;
+      }
+
+      
+      
     }
   }
 }
+

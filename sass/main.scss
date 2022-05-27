@@ -1,6 +1,11 @@
 @import './variables-mixins/variables';
 @import './variables-mixins/mixins';
 
+@font-face {
+    src: url("../assets/fonts/Blen.ttf");
+    font-family: blen;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -8,6 +13,7 @@ body{
 }
 
 @import './components/header.scss';
+@import './components/about';
 @import './components/sponsors';
 @import './components/footer';
 

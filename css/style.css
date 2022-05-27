@@ -1,3 +1,7 @@
+@font-face {
+  src: url("../assets/fonts/Blen.ttf");
+  font-family: blen;
+}
 body {
   margin: 0;
   padding: 0;
@@ -7,6 +11,7 @@ body {
 header {
   width: 100%;
   height: 22rem;
+  background: linear-gradient(to top, #fff 50%, #f06f60 50%);
   background-image: url("../assets/png/wave.png");
   background-size: cover;
   background-position-y: 25%;
@@ -30,13 +35,55 @@ header .header-logo {
   }
 }
 
+.about {
+  height: 50rem;
+}
+
+.about-flex-container {
+  display: flex;
+  justify-content: center;
+  height: fit-content;
+}
+
+.sponsors {
+  margin: 5rem 0 10rem;
+}
 .sponsors h4 {
   text-align: center;
+  font-family: "blen";
+  font-size: 26px;
+  color: #f06f60;
+  line-height: 55px;
+}
+@media only screen and (min-width: 37.5em) {
+  .sponsors h4 {
+    font-size: 42px;
+  }
 }
 .sponsors .sponsors-flex-container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+}
+@media only screen and (min-width: 37.5em) {
+  .sponsors .sponsors-flex-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+.sponsors .sponsors-flex-container span {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.sponsors .sponsors-flex-container .main-sponsor {
+  width: 100%;
+  margin: auto auto;
+}
+.sponsors .sponsors-flex-container .main-sponsor div {
+  width: 250px;
+  height: 250px;
 }
 .sponsors .sponsors-flex-container div {
   height: 200px;
@@ -70,12 +117,22 @@ footer .footer-section {
   justify-content: center;
   align-items: center;
   text-align: center;
+  color: #fff;
 }
 footer .footer-section p {
   font-size: 36px;
+  font-family: "Work Sans";
+  line-height: 35px;
 }
-footer .footer-section p span {
-  border-bottom: 1px solid black;
+footer .footer-section p a {
+  text-decoration: none;
+  color: #fff;
+}
+footer .footer-section p .footer-span-1 {
+  border-bottom: 1px solid #fff;
+  font-family: "Cinzel";
+  font-weight: 400;
+  line-height: 65px;
 }
 
 /*# sourceMappingURL=style.css.map */

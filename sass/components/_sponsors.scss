@@ -1,12 +1,47 @@
 .sponsors{
+    margin: 5rem 0 10rem;
     // width: 100%;
     h4{
     text-align: center;
+    font-family: 'blen';
+    font-size: 26px;
+    color: $pink;
+    line-height: 55px;
+
+    @include respond(phone) {
+        font-size: 42px;
+      }
+
     }
     .sponsors-flex-container{
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
+
+        @include respond(phone) {
+            flex-direction: row;
+            flex-wrap: wrap;
+            
+            
+        }
+
+        span{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .main-sponsor{
+            width: 100%;
+            margin: auto auto;
+            div{
+                width: 250px;
+                height: 250px;
+            }
+           
+        }
+
         div{
             height: 200px;
             width: 200px;
