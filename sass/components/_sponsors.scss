@@ -1,14 +1,51 @@
-.sponsors{
-    margin: 5rem 0 10rem;
-    padding-top: 4rem;
-    // width: 100%;
+.sponsors {
+//   margin: 5rem 0 10rem;
+//   padding-top: 4rem;
+  
+  // width: 100%;
 
-    background-image: url('../assets/png/drop.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-y: 65%;
+  // position: relative;
 
-    h4{
+  // ::before {
+  //   content: "";
+  //   background-image: url('../assets/png/drop.png');
+  //   background-size: cover;
+  //   position: absolute;
+  //   top: 0px;
+  //   right: 0px;
+  //   bottom: 0px;
+  //   left: 0px;
+  // //   opacity: 1;
+  // //   background-position-y: 75%;
+  // // background-position: 0px 0px;
+  // background-repeat: repeat-y;
+  // animation: animatedBackground 3s linear infinite;
+  // }
+
+  // @keyframes animatedBackground {
+  //     from {
+  //       background-position: 0 200%;
+  //       opacity: 1;
+  //     }
+  //     to {
+  //       background-position: 0 50%;
+  //       opacity: 0;
+  //     }
+  //   }
+
+  background-image: url('../assets/png/drop.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 65%;
+  // background-position: 0px 0px;
+//   background-repeat: repeat-y;
+//   animation: animatedBackground 4s linear infinite;
+
+  h4 {
+    // margin-bottom: 50rem;
+    // padding-bottom: 40rem;
+    position: relative;
+    bottom: 4rem;
     text-align: center;
     font-family: 'blen';
     font-size: 26px;
@@ -16,46 +53,42 @@
     line-height: 55px;
 
     @include respond(phone) {
-        font-size: 42px;
+      font-size: 42px;
+    }
+  }
+  .sponsors-flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0 2rem;
+
+    @include respond(phone) {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
+    span {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .main-sponsor {
+      width: 100%;
+      margin: auto auto;
+      div {
+        width: 250px;
+        height: 250px;
       }
-
     }
-    .sponsors-flex-container{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
 
-        @include respond(phone) {
-            flex-direction: row;
-            flex-wrap: wrap;
-            
-            
-        }
-
-        span{
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-
-        .main-sponsor{
-            width: 100%;
-            margin: auto auto;
-            div{
-                width: 250px;
-                height: 250px;
-            }
-           
-        }
-
-        div{
-            height: 200px;
-            width: 200px;
-            border-radius: 50%;
-            background-color: aquamarine;
-            margin: 2rem;
-        }
+    div {
+      height: 200px;
+      width: 200px;
+      border-radius: 50%;
+      background-color: aquamarine;
+      margin: 2rem;
     }
-    
+  }
 }
