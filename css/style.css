@@ -43,6 +43,14 @@ header .header-logo {
   }
 }
 
+.rain-div {
+  background-image: url("../assets/png/drop.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 65%;
+  background-attachment: fixed;
+}
+
 .images-slider {
   margin-top: 4rem;
   width: 40%;
@@ -147,12 +155,6 @@ header .header-logo {
   top: 3rem;
 }
 
-.sponsors {
-  background-image: url("../assets/png/drop.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position-y: 65%;
-}
 .sponsors h4 {
   position: relative;
   bottom: 4rem;
