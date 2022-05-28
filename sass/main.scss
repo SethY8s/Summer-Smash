@@ -12,6 +12,14 @@ body{
     box-sizing: border-box;
 }
 
+ h2, h3, h4{
+    font-family: 'poppins';
+    font-weight: 700;
+}
+p{
+    font-family: 'poppins';
+}
+
 @import './components/header.scss';
 @import './components/images';
 @import './components/about';
