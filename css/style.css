@@ -54,7 +54,6 @@ header .header-logo {
 .images-slider {
   margin-top: 4rem;
   width: 40%;
-  border: 3px solid green;
 }
 
 .everything-about {
@@ -155,6 +154,9 @@ header .header-logo {
   top: 3rem;
 }
 
+.sponsors {
+  margin-bottom: 3rem;
+}
 .sponsors h4 {
   position: relative;
   bottom: 4rem;
