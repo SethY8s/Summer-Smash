@@ -50,15 +50,94 @@ header .header-logo {
 }
 
 .about {
+  color: #fff;
   margin-bottom: 10rem;
-  background-color: #f06f60;
+  background-image: linear-gradient(#f06f60, #fde8e5);
 }
 .about div {
-  height: 20rem;
+  height: 40rem;
+  margin: 0 0 0 0rem;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-evenly;
+  align-items: center;
+}
+@media only screen and (min-width: 56.25em) {
+  .about div {
+    height: 20rem;
+  }
+}
+@media only screen and (min-width: 56.25em) {
+  .about div {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+.about div img {
+  width: 80%;
+  border-radius: 5px;
+}
+@media only screen and (min-width: 56.25em) {
+  .about div img {
+    width: 30%;
+  }
+}
+.about div span {
+  height: fit-content;
+  width: 80%;
+}
+.about div span div {
+  height: fit-content;
+  display: flex;
+  justify-content: flex-start;
+}
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0.5;
+  }
+}
+.about div span img {
+  position: relative;
+  bottom: 4rem;
+  right: 2rem;
+  transform: rotate(25deg);
+  width: 9rem;
+  animation: blink 2.5s linear infinite;
+}
+@media only screen and (min-width: 56.25em) {
+  .about div span {
+    width: 40%;
+  }
+}
+.about div span h2 {
+  font-size: 46px;
+}
+.about div span a {
+  margin: 2rem;
+  position: relative;
+  top: 2rem;
+  border: 10px solid #c4121a;
+  border-radius: 38px;
+  padding: 1.4rem 0.2rem;
+}
+.about div span a button {
+  font-size: 20px;
+  color: #fff;
+  background-color: #56b947;
+  padding: 0.8rem 3.5rem;
+  border-radius: 25px;
 }
 
 .sponsors {
   margin: 5rem 0 10rem;
+  padding-top: 4rem;
+  background-image: url("../assets/png/drop.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 65%;
 }
 .sponsors h4 {
   text-align: center;
