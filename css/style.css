@@ -47,13 +47,13 @@ header .header-logo {
   background-image: url("../assets/png/drop.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position-y: 65%;
   background-attachment: fixed;
+  background-position: 50% 50%;
 }
 
-.images-slider {
+.image-slider-border .images-slider {
   margin-top: 4rem;
-  width: 40%;
+  width: 37rem;
 }
 
 .everything-about {
@@ -152,6 +152,12 @@ header .header-logo {
 .band-student .band-student-container p {
   position: relative;
   top: 3rem;
+  font-size: 16px;
+  width: 40%;
+  text-align: center;
+}
+.band-student .band-student-container p span img {
+  width: 100px;
 }
 
 .sponsors {
