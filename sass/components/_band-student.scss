@@ -1,46 +1,55 @@
-.band-student{
+.band-student {
+  // background-image: url('../assets/png/drop.png');
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  // background-position-y: 65%;
+  // background-attachment: fixed;
+
+  // background-color: green;
 
 
-    // background-image: url('../assets/png/drop.png');
-    // background-repeat: no-repeat;
-    // background-size: cover;
-    // background-position-y: 65%;
-    // background-attachment: fixed;
+  position: relative;
+  bottom: 15rem;
+  .band-student-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-    // background-color: green;
-    position: relative;
-    bottom: 15rem;
-    .band-student-container{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        img{
-            margin-top: 2rem;
-            width: 60%;
-        }
-
-
-        h4{
-            font-size: 48px;
-            text-align: center;
-            font-family: 'blen';
-            color: $pink;
-        }
-        p{
-            // margin-top: 5rem;
-            position: relative;
-            top: 3rem;
-            font-size: 16px;
-            width: 40%;
-            text-align: center;
-            span{
-                img{
-                    width: 100px;
-                
-                }
-            }
-        }
+    img {
+      width: 60%;
     }
-   
-    
+
+    h4 {
+        font-size: 64px;
+        text-align: center;
+        font-family: 'blen';
+        color: $pink;
+        position: relative;
+        top: 2rem;
+      }
+
+    .at-Nina-June {
+      display: flex;
+      justify-content: center;
+      width: 60%;
+      margin-left: 6rem;
+
+      h6 {
+        font-family: 'blen';
+        font-size: 30px;
+        color: $pink;
+        align-self: flex-end;
+        position: relative;
+        top: 0.7rem;
+        margin-left: 0.85rem;
+      }
+      img {
+        width: 50%;
+      }
+    }
+    p{
+        margin-top: 2rem;
+        width: 57%;
+    }
+  }
 }

@@ -1,20 +1,25 @@
-
-.image-slider-border{
+.image-background-color {
+    margin-top: 10rem;
+    width: 60%;
+    background-color: green;
+    border-radius: 20px;
+  .image-slider-border {
     // width: 39rem;
     // height: 35rem;
     // margin-top: 5rem;
     // // border: 5px solid green;
     // background-image: url(../assets/png/wave.png);
-    
+
     // border-radius: 20px;
     // display: flex;
     // justify-content: center;
-    
 
-    .images-slider{
-        margin-top: 4rem;
-        width:37rem;
-        
+    .images-slider {
+      margin-top: 4rem;
+      width: 37rem;
+      // background-color: black;
+      align-self: center;
+      margin: auto auto;
     }
+  }
 }
-

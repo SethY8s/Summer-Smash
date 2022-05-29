@@ -51,9 +51,17 @@ header .header-logo {
   background-position: 50% 50%;
 }
 
-.image-slider-border .images-slider {
+.image-background-color {
+  margin-top: 10rem;
+  width: 60%;
+  background-color: green;
+  border-radius: 20px;
+}
+.image-background-color .image-slider-border .images-slider {
   margin-top: 4rem;
   width: 37rem;
+  align-self: center;
+  margin: auto auto;
 }
 
 .everything-about {
@@ -94,14 +102,15 @@ header .header-logo {
 }
 @media only screen and (min-width: 56.25em) {
   .about div img {
-    width: 30%;
+    width: 30rem;
   }
 }
 .about div span {
   width: 80%;
+  height: 21rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
 }
 @media only screen and (min-width: 56.25em) {
   .about div span {
@@ -111,10 +120,13 @@ header .header-logo {
 .about div span h2 {
   font-size: 56px;
 }
-.about div span h4,
-.about div span h6 {
+.about div span h4 {
   font-size: 18px;
   font-weight: 300;
+  margin-top: 1rem;
+}
+.about div span p {
+  margin-bottom: 3.5rem;
 }
 .about div span button {
   font-size: 20px;
@@ -140,24 +152,37 @@ header .header-logo {
   align-items: center;
 }
 .band-student .band-student-container img {
-  margin-top: 2rem;
   width: 60%;
 }
 .band-student .band-student-container h4 {
-  font-size: 48px;
+  font-size: 64px;
   text-align: center;
   font-family: "blen";
   color: #f06f60;
+  position: relative;
+  top: 2rem;
+}
+.band-student .band-student-container .at-Nina-June {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  margin-left: 6rem;
+}
+.band-student .band-student-container .at-Nina-June h6 {
+  font-family: "blen";
+  font-size: 30px;
+  color: #f06f60;
+  align-self: flex-end;
+  position: relative;
+  top: 0.7rem;
+  margin-left: 0.85rem;
+}
+.band-student .band-student-container .at-Nina-June img {
+  width: 50%;
 }
 .band-student .band-student-container p {
-  position: relative;
-  top: 3rem;
-  font-size: 16px;
-  width: 40%;
-  text-align: center;
-}
-.band-student .band-student-container p span img {
-  width: 100px;
+  margin-top: 2rem;
+  width: 57%;
 }
 
 .sponsors {

@@ -45,17 +45,17 @@
       border-radius: 5px;
 
       @include respond(tab-port) {
-        width: 30%;
+        width: 30rem;
       }
     }
     span {
       // height: fit-content;
       width: 80%;
-      // height: 20rem;
+      height: 21rem;
 
       display: flex;
       flex-direction: column;
-      justify-content: center;
+      justify-content: space-between;
 
       @include respond(tab-port) {
         width: 40%;
@@ -65,10 +65,13 @@
         font-size: 56px;
       }
 
-      h4,
-      h6 {
+      h4 {
         font-size: 18px;
         font-weight: 300;
+        margin-top: 1rem;
+      }
+      p {
+        margin-bottom: 3.5rem;
       }
 
       button {
@@ -79,7 +82,7 @@
         border-radius: 25px;
         border: transparent;
         width: fit-content;
-        a{
+        a {
           text-decoration: none;
           color: $white;
         }
