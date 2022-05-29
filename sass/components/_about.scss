@@ -1,11 +1,11 @@
 .everything-about {
   // margin-bottom: 5rem;
-  
+
   margin-top: 0;
 
   @include respond(phone) {
     position: relative;
-  bottom: 15rem;
+    bottom: 15rem;
   }
 }
 
@@ -49,53 +49,40 @@
       }
     }
     span {
-      height: fit-content;
-      div {
-        height: fit-content;
-        display: flex;
-        justify-content: flex-start;
-      }
+      // height: fit-content;
+      width: 80%;
+      // height: 20rem;
 
-      // @keyframes blink {
-      //     50%{
-      //         opacity: 0;
-      //     }
-      //     80%{
-      //         opacity: .5;
-      //     }
-      // }
-
-      // img{
-      //     position: relative;
-      //     bottom: 4rem;
-      //     right: 2rem;
-      //     transform: rotate(25deg);
-      //    width: 9rem;
-      //    animation: blink 2.5s linear infinite;
-      // }
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
 
       @include respond(tab-port) {
         width: 40%;
       }
 
-      width: 80%;
       h2 {
-        font-size: 46px;
+        font-size: 56px;
       }
-      a {
-        margin: 2rem;
-        position: relative;
-        top: 2rem;
-        button {
-          font-size: 20px;
+
+      h4,
+      h6 {
+        font-size: 18px;
+        font-weight: 300;
+      }
+
+      button {
+        font-size: 20px;
+        color: $white;
+        background-color: $light-green;
+        padding: 0.8rem 3.5rem;
+        border-radius: 25px;
+        border: transparent;
+        width: fit-content;
+        a{
+          text-decoration: none;
           color: $white;
-          background-color: $light-green;
-          padding: 0.8rem 3.5rem;
-          border-radius: 25px;
         }
-        border: 10px solid $red;
-        border-radius: 38px;
-        padding: 1.4rem 0.2rem;
       }
     }
   }

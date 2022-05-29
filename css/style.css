@@ -98,13 +98,10 @@ header .header-logo {
   }
 }
 .about div span {
-  height: fit-content;
   width: 80%;
-}
-.about div span div {
-  height: fit-content;
   display: flex;
-  justify-content: flex-start;
+  flex-direction: column;
+  justify-content: center;
 }
 @media only screen and (min-width: 56.25em) {
   .about div span {
@@ -112,22 +109,25 @@ header .header-logo {
   }
 }
 .about div span h2 {
-  font-size: 46px;
+  font-size: 56px;
 }
-.about div span a {
-  margin: 2rem;
-  position: relative;
-  top: 2rem;
-  border: 10px solid #c4121a;
-  border-radius: 38px;
-  padding: 1.4rem 0.2rem;
+.about div span h4,
+.about div span h6 {
+  font-size: 18px;
+  font-weight: 300;
 }
-.about div span a button {
+.about div span button {
   font-size: 20px;
   color: #fff;
   background-color: #56b947;
   padding: 0.8rem 3.5rem;
   border-radius: 25px;
+  border: transparent;
+  width: fit-content;
+}
+.about div span button a {
+  text-decoration: none;
+  color: #fff;
 }
 
 .band-student {
