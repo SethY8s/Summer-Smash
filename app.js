@@ -1,8 +1,4 @@
-
-const startingPoint = document.querySelector('.')
-
-
-
+const startingPoint = document.querySelector('.rain-div');
 
 const scrollOptions = {};
 
@@ -11,14 +7,14 @@ const scrollingDrops = new IntersectionObserver(function (
   scrollingDrops
 ) {
   entries.forEach((entries) => {
-    if (!entry.isIntersecting) {
+    if (!entries.isIntersecting) {
       return;
     } else {
-        entry.target.add('something');
-
+      console.log(entries);
+      // entry.target.add('something');
     }
   });
 },
 scrollOptions);
 
-
+scrollingDrops.observe(startingPoint);
