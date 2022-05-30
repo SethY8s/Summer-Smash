@@ -46,9 +46,8 @@ header .header-logo {
 .rain-div {
   background-image: url("../assets/png/drop.png");
   background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: 50% 50%;
+  background-size: contain;
+  background-position: 50% 27%;
 }
 
 .image-background-color {
@@ -182,7 +181,7 @@ header .header-logo {
 }
 .band-student .band-student-container p {
   margin-top: 2rem;
-  width: 57%;
+  width: 58%;
 }
 
 .sponsors {
