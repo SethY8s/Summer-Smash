@@ -55,6 +55,19 @@ header .header-logo {
   background-position: 50% 105%;
 }
 
+.background-rain-div {
+  background-image: url("../assets/png/drop.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50% 27%;
+  background-color: rgb(255, 255, 255);
+  transition: background-color 3s ease-in;
+}
+
+.background-rain-div-after {
+  background-color: rgba(0, 0, 0, 0);
+}
+
 .image-background-color {
   margin-top: 10rem;
   width: 60%;
