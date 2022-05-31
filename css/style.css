@@ -67,7 +67,7 @@ header .header-logo {
   background-color: rgba(255, 255, 255, 0);
 }
 
-.finalBackGround {
+.fallingBackGround {
   background-image: url("../assets/png/drop.png");
   background-repeat: no-repeat;
   background-size: contain;
@@ -75,7 +75,7 @@ header .header-logo {
   transition: background-position 3s ease-in;
 }
 
-.finalBackGroundEnd {
+.fallingBackGroundEnd {
   background-position: 50% 105%;
 }
 

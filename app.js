@@ -19,11 +19,11 @@ const scrollingDrops = new IntersectionObserver(function (
   const animationDiv = document.querySelector('.rain-div');
   animationDiv.classList.add('rain-div-animation');
 
-  const thingy = document.querySelector('.background-rain-div');
-  thingy.classList.add('background-rain-div-after');
+  const transparencyAnimation = document.querySelector('.background-rain-div');
+  transparencyAnimation.classList.add('background-rain-div-after');
 
-  const thingyThing = document.querySelector('.finalBackGround');
-  thingyThing.classList.add('finalBackGroundEnd');
+  const fallingAnimation = document.querySelector('.fallingBackGround');
+  fallingAnimation.classList.add('fallingBackGroundEnd');
 
   }
     });

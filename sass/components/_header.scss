@@ -62,7 +62,7 @@ header {
   // background-position: 50% 105%;
 }
 
-.finalBackGround{
+.fallingBackGround{
   background-image: url('../assets/png/drop.png');
   background-repeat: no-repeat;
   background-size: contain;
@@ -70,6 +70,6 @@ header {
   transition: background-position 3s ease-in;
 }
 
-.finalBackGroundEnd{
+.fallingBackGroundEnd{
   background-position: 50% 105%;
 }
