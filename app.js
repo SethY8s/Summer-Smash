@@ -4,8 +4,8 @@ const startingPoint = document.querySelector('.at-Nina-June');
 
 const scrollOptions = {
   root: null,
-  threshold: .77,
-  rootMargin: "-180px"
+  threshold: 0.77,
+  rootMargin: "-220px"
 };
 
 // const endOptions = {
