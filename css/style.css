@@ -217,7 +217,7 @@ header .header-logo {
   display: flex;
   justify-content: center;
   width: 60%;
-  margin-left: 6rem;
+  margin-top: 2rem;
 }
 .band-student .band-student-container .at-Nina-June h6 {
   font-family: "blen";
@@ -229,7 +229,7 @@ header .header-logo {
   margin-left: 0.85rem;
 }
 .band-student .band-student-container .at-Nina-June img {
-  width: 50%;
+  width: 60%;
 }
 .band-student .band-student-container p {
   font-size: 15px;
