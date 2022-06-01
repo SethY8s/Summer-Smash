@@ -31,10 +31,6 @@ header {
   background-image: url('../assets/png/dropsNew.png');
   background-repeat: no-repeat;
 
-  // background-size: cover;
-  // background-attachment: fixed;
-  // background-position: 50% 50%;
-
   background-size: contain;
   background-position: 50% 27%;
 
@@ -44,7 +40,7 @@ header {
 
 .rain-div-animation {
   // background-color: rgb(255, 255, 255, 0);
-  background-position: 50% 30%;
+  background-position: 50% 29%;
 }
 
 .background-rain-div {
@@ -53,13 +49,11 @@ header {
   background-size: contain;
   background-position: 50% 27%;
   background-color: rgb(255, 255, 255, 1);
-  transition: background-color 4s ease-in;
-  // transition: background-position 4s ease-in;
+  transition: background-color 3s ease-in;
 }
 
 .background-rain-div-after {
   background-color: rgb(255, 255, 255, 0);
-  // background-position: 50% 105%;
 }
 
 .fallingBackGround{
