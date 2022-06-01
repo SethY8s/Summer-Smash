@@ -170,6 +170,10 @@ header .header-logo {
 .about div span p {
   margin-bottom: 3.5rem;
 }
+.about div span p span {
+  text-decoration: underline;
+  display: inline;
+}
 .about div span button {
   font-size: 20px;
   color: #fff;
@@ -301,23 +305,11 @@ footer .footer-section {
   align-items: flex-start;
   justify-content: center;
   align-items: center;
-  text-align: center;
   color: #fff;
 }
-footer .footer-section p {
-  font-size: 36px;
-  font-family: "Work Sans";
-  line-height: 35px;
-}
-footer .footer-section p a {
-  text-decoration: none;
-  color: #fff;
-}
-footer .footer-section p .footer-span-1 {
-  border-bottom: 1px solid #fff;
-  font-family: "Cinzel";
-  font-weight: 400;
-  line-height: 65px;
+footer .footer-section img {
+  width: 20rem;
+  height: auto;
 }
 
 /*# sourceMappingURL=style.css.map */

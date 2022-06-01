@@ -31,34 +31,40 @@ footer {
     align-items: flex-start;
     justify-content: center;
     align-items: center;
-    text-align: center;
+   
     color: #fff;
+
+    img{
+      
+      width: 20rem;
+      height:auto;
+    }
     
 
    
-    p {
+    // p {
 
-      font-size: 36px;
-      font-family: 'Work Sans';
-      line-height: 35px;
+    //   font-size: 36px;
+    //   font-family: 'Work Sans';
+    //   line-height: 35px;
       
 
-      a{
-        text-decoration: none;
-        color: #fff;
-      }
+    //   a{
+    //     text-decoration: none;
+    //     color: #fff;
+    //   }
 
       
-      .footer-span-1 {
-        border-bottom: 1px solid #fff;
-        font-family: 'Cinzel';
-        font-weight: 400;
-        line-height: 65px;
-      }
+    //   .footer-span-1 {
+    //     border-bottom: 1px solid #fff;
+    //     font-family: 'Cinzel';
+    //     font-weight: 400;
+    //     line-height: 65px;
+    //   }
 
       
       
-    }
+    // }
   }
 }
 
