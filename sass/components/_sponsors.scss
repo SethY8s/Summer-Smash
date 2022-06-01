@@ -7,7 +7,12 @@
 //   background-position-y: 65%;
 //   background-attachment: fixed;
 
-margin-bottom: 3rem;
+margin-bottom: 4rem;
+
+// added
+position: relative;
+bottom: 2rem;
+// added end
 
 
   // width: 50%;
@@ -32,6 +37,7 @@ margin-bottom: 3rem;
     align-items: center;
     justify-content: center;
     padding: 2rem 0 2rem;
+
 
     @include respond(phone) {
       flex-direction: row;
@@ -59,6 +65,12 @@ margin-bottom: 3rem;
       border-radius: 50%;
       background-color: aquamarine;
       margin: 2rem;
+      // added
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 20px;
+      // addedend
     }
   }
 }

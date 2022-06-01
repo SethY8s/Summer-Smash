@@ -20,8 +20,8 @@
 
 .about {
   color: $white;
-  // margin-bottom: 10rem;
   background-image: linear-gradient($pink, #fde8e5);
+
   div {
     height: 40rem;
 
@@ -38,42 +38,66 @@
     @include respond(tab-port) {
       flex-direction: row;
       flex-wrap: wrap;
+      position: relative;
+      bottom: 1rem;
     }
 
-    img {
-      width: 80%;
-      border-radius: 5px;
+    .about-image-text{
 
-      @include respond(tab-port) {
-        width: 30rem;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      position: relative;
+      top: 1rem;
+
+      img {
+        width: 80%;
+        border-radius: 5px;
+  
+        @include respond(tab-port) {
+          width: 30rem;
+        }
+      }
+      p{
+        margin-top: 1rem;
       }
     }
+
+    // img {
+    //   width: 80%;
+    //   border-radius: 5px;
+
+    //   @include respond(tab-port) {
+    //     width: 30rem;
+    //   }
+    // }
+
     span {
       // height: fit-content;
       width: 80%;
-      height: 21rem;
+      height: 23rem;
 
       display: flex;
       flex-direction: column;
       justify-content: space-between;
 
       @include respond(tab-port) {
-        width: 40%;
+        width: 35%;
       }
 
       h2 {
-        font-size: 56px;
+        font-size: 54px;
       }
 
-      h4 {
-        font-size: 18px;
-        font-family: gothemLight;
-        margin-top: 1rem;
-      }
+      // h4 {
+      //   font-size: 18px;
+      //   font-family: gothemLight;
+      //   margin-top: 1rem;
+      // }
       p {
-        margin-bottom: 3.5rem;
-        
-        span{
+        // margin-bottom: 3.5rem;
+
+        span {
           text-decoration: underline;
           display: inline;
         }
@@ -90,6 +114,7 @@
         a {
           text-decoration: none;
           color: $white;
+          width: fit-content;
         }
       }
     }
