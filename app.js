@@ -3,7 +3,7 @@ const startingPoint = document.querySelector('.at-Nina-June');
 const scrollOptions = {
   root: null,
   threshold: 0.77,
-  rootMargin: '-220px',
+  rootMargin: '-100px',
 };
 
 const scrollingDrops = new IntersectionObserver(function (

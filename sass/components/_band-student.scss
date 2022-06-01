@@ -7,7 +7,6 @@
 
   // background-color: green;
 
-
   position: relative;
   bottom: 15rem;
   .band-student-container {
@@ -20,20 +19,22 @@
     }
 
     h4 {
-        font-size: 64px;
-        text-align: center;
-        font-family: 'blen';
-        color: $pink;
-        position: relative;
-        top: 2rem;
-      }
+      font-size: 64px;
+      text-align: center;
+      font-family: 'blen';
+      color: $pink;
+      position: relative;
+      top: 2rem;
+    }
 
     .at-Nina-June {
       display: flex;
       justify-content: center;
+      
       width: 60%;
       // margin-left: 6rem; was this for at img resturant
       margin-top: 2rem;
+      margin: auto;
 
       h6 {
         font-family: 'blen';
@@ -44,17 +45,18 @@
         top: 0.7rem;
         margin-left: 0.85rem;
       }
-      img {
-        // orginally 50 for at img resturant
-        width: 60%;
-      }
+      
+        
+        img {
+          // orginally 50 for at img resturant
+          width: 60%;
+        }
+      
     }
-    p{
+    p {
       font-size: 15px;
-        margin-top: 2rem;
-        width: 58%;
-        
-        
+      margin-top: 2rem;
+      width: 58%;
     }
   }
 }

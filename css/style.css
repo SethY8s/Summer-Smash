@@ -88,7 +88,7 @@ header .header-logo {
 }
 
 .fallingBackGroundEnd {
-  background-position: 50% 92%;
+  background-position: 50% 120%;
 }
 
 .image-background-color {
@@ -218,6 +218,7 @@ header .header-logo {
   justify-content: center;
   width: 60%;
   margin-top: 2rem;
+  margin: auto;
 }
 .band-student .band-student-container .at-Nina-June h6 {
   font-family: "blen";
