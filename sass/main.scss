@@ -6,6 +6,21 @@
     font-family: blen;
 }
 
+@font-face {
+    src: url("../assets/fonts/Gotham/Gotham-Bold.otf");
+    font-family: gothemBold;
+  }
+
+  @font-face {
+    src: url("../assets/fonts/Gotham/Gotham-Medium.otf");
+    font-family: gothem;
+  }
+
+  @font-face {
+    src: url("../assets/fonts/Gotham/Gotham-ThinItalic.otf");
+    font-family: gothemLight;
+  }
+
 body{
     margin: 0;
     padding: 0;
@@ -14,11 +29,11 @@ body{
 }
 
  h2, h3, h4{
-    font-family: 'poppins';
+    font-family: 'gothemBold';
     font-weight: 700;
 }
 p{
-    font-family: 'poppins';
+    font-family: 'gothem';
 }
 
 @import './components/header.scss';
