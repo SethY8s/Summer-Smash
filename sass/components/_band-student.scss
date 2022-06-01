@@ -34,7 +34,11 @@
       width: 60%;
       // margin-left: 6rem; was this for at img resturant
       margin-top: 2rem;
-      margin: auto;
+      
+      a{
+        display: flex;
+        justify-content: center;
+      }
 
       h6 {
         font-family: 'blen';
@@ -49,7 +53,7 @@
         
         img {
           // orginally 50 for at img resturant
-          width: 60%;
+          width: 50%;
         }
       
     }
