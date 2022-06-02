@@ -3,7 +3,7 @@
 
   margin-top: 0;
 
-  @include respond(phone) {
+  @include respond(tab-port) {
     position: relative;
     bottom: 15rem;
   }

@@ -4,6 +4,9 @@ header {
   height: 22rem;
 
   @include respond(phone) {
+    height: 24rem;
+  }
+  @include respond(tab-port) {
     height: 100vh;
   }
 
@@ -22,11 +25,17 @@ header {
     width: 80%;
     position: relative;
     @include respond(phone) {
+      width: 60%;
+    }
+    @include respond(tab-port) {
       width: 40%;
     }
   }
 }
 
+
+
+// Rain_________________________________________________
 .rain-div {
   background-image: url('../assets/png/dropsNew.png');
   background-repeat: no-repeat;
