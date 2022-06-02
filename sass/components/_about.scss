@@ -42,8 +42,7 @@
       bottom: 1rem;
     }
 
-    .about-image-text{
-
+    .about-image-text {
       display: flex;
       flex-direction: column;
       flex-wrap: nowrap;
@@ -53,12 +52,12 @@
       img {
         width: 80%;
         border-radius: 5px;
-  
+
         @include respond(tab-port) {
           width: 30rem;
         }
       }
-      p{
+      p {
         margin-top: 1rem;
       }
     }
@@ -103,18 +102,26 @@
         }
       }
 
-      button {
-        font-size: 20px;
-        color: $white;
-        background-color: $light-green;
-        padding: 0.8rem 3.5rem;
-        border-radius: 25px;
-        border: transparent;
-        width: fit-content;
+      .about-buttons {
+        margin-right: 7rem;
+        margin-top: 1rem;
+
         a {
+          font-size: 20px;
+          color: $white;
+          background-color: $light-green;
+          padding: 0.6rem 3rem;
+          border-radius: 25px;
+          border: transparent;
+          width: fit-content;
           text-decoration: none;
           color: $white;
           width: fit-content;
+          transition: background-color 500ms ease-in;
+          &:hover {
+            background-color: $dark-green;
+            border: 4px solid $red;
+          }
         }
       }
     }
