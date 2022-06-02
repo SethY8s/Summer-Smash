@@ -11,7 +11,7 @@
   font-family: gothem;
 }
 @font-face {
-  src: url("../assets/fonts/Gotham/Gotham-ThinItalic.otf");
+  src: url("../assets/fonts/Gotham/Gotham-LightItalic.otf");
   font-family: gothemLight;
 }
 body {
@@ -158,6 +158,7 @@ header .header-logo {
 }
 .about div .about-image-text p {
   margin-top: 1rem;
+  font-family: gothemlight;
 }
 .about div span {
   width: 80%;
@@ -177,9 +178,15 @@ header .header-logo {
 .about div span p a {
   color: #fff;
 }
+.about div span .about-contact-text {
+  font-family: gothemlight;
+}
 .about div span .about-buttons {
+  width: 100%;
   margin-right: 7rem;
-  margin-top: 1rem;
+  margin-top: 1.3rem;
+  display: flex;
+  justify-content: space-evenly;
 }
 .about div span .about-buttons a {
   font-size: 20px;

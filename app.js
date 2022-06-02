@@ -37,4 +37,6 @@ const onLoad = () => {
 
 }
 
-setTimeout(onLoad, 2500)
+if(window.screen.width > 900){
+setTimeout(onLoad, 2000)
+}

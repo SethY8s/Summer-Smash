@@ -61,6 +61,7 @@
       }
       p {
         margin-top: 1rem;
+        font-family: gothemlight;
       }
     }
 
@@ -102,10 +103,16 @@
           color: $white;
         }
       }
+      .about-contact-text{
+        font-family: gothemlight;
+      }
 
       .about-buttons {
+        width: 100%;
         margin-right: 7rem;
-        margin-top: 1rem;
+        margin-top: 1.3rem;
+        display: flex;
+        justify-content: space-evenly;
 
         a {
           font-size: 20px;
