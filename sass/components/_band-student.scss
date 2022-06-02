@@ -12,6 +12,7 @@
     bottom: 15rem;
   }
 
+  
 
   .band-student-container {
     display: flex;
@@ -35,9 +36,13 @@
       display: flex;
       justify-content: center;
 
-      width: 60%;
+      width: 100%;
+      @include respond(tab-port) {
+        width: 60%;
+       
+      }
       // margin-left: 6rem; was this for at img resturant
-      margin-top: 2rem;
+      margin-top: 3rem;
 
       a {
         display: flex;

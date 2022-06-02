@@ -59,18 +59,18 @@ header .header-logo {
   background-image: url("../assets/png/dropsNew.png");
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: 50% 27%;
+  background-position: 50% 35%;
   transition: background-position 3s ease-in;
 }
 
 .rain-div-animation {
-  background-position: 50% 29%;
+  background-position: 50% 38%;
 }
 
 .background-rain-div {
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: 50% 27%;
+  background-position: 50% 35%;
   background-color: rgb(255, 255, 255);
   transition: background-color 3s ease-in;
 }
@@ -83,7 +83,7 @@ header .header-logo {
   background-image: url("../assets/png/dropsNew.png");
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: 50% 27%;
+  background-position: 50% 35%;
   transition: background-position 3s ease-in;
 }
 
@@ -156,9 +156,16 @@ header .header-logo {
   width: 80%;
   border-radius: 5px;
 }
-@media only screen and (min-width: 75em) {
+@media only screen and (min-width: 56.25em) {
   .about div .about-image-text img {
-    width: 20rem;
+    width: 24rem;
+    position: relative;
+    bottom: 1rem;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .about div .about-image-text img {
+    width: 27rem;
   }
 }
 @media only screen and (min-width: 82em) {
@@ -200,14 +207,24 @@ header .header-logo {
 }
 .about div span {
   position: relative;
-  bottom: 1rem;
-  width: 80%;
+  bottom: 1.5rem;
+  width: 85%;
   height: 23rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-@media only screen and (min-width: 75em) {
+@media only screen and (min-width: 56.25em) {
+  .about div span {
+    width: 51%;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .about div span {
+    width: 45%;
+  }
+}
+@media only screen and (min-width: 82em) {
   .about div span {
     width: 35%;
   }
@@ -222,6 +239,12 @@ header .header-logo {
 }
 .about div span p a {
   color: #fff;
+  display: inline;
+}
+@media only screen and (min-width: 1400px) {
+  .about div span p a {
+    display: block;
+  }
 }
 .about div span .about-contact-text {
   font-family: gothemlight;
@@ -283,8 +306,13 @@ header .header-logo {
 .band-student .band-student-container .at-Nina-June {
   display: flex;
   justify-content: center;
-  width: 60%;
-  margin-top: 2rem;
+  width: 100%;
+  margin-top: 3rem;
+}
+@media only screen and (min-width: 56.25em) {
+  .band-student .band-student-container .at-Nina-June {
+    width: 60%;
+  }
 }
 .band-student .band-student-container .at-Nina-June a {
   display: flex;

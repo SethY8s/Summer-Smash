@@ -9,6 +9,11 @@
         @content;
       } //900px
     }
+    @if $breakpoint == 1001 {
+      @media only screen and (min-width: 1000px) {
+        @content;
+      } //1000
+    }
     @if $breakpoint == tab-land {
       @media only screen and (min-width: 75em) {
         @content;
@@ -16,6 +21,11 @@
     }
     @if $breakpoint == medium-desk {
       @media only screen and (min-width: 82em) {
+        @content;
+      } //1312px
+    }
+    @if $breakpoint == direction {
+      @media only screen and (min-width: 1400px) {
         @content;
       } //1312px
     }

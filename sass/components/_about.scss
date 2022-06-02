@@ -24,7 +24,6 @@
 
     @include respond(tab-port) {
       height: 20rem;
-     
     }
 
     // margin: 0 0 0 0rem;
@@ -51,9 +50,15 @@
         width: 80%;
         border-radius: 5px;
 
-        @include respond(tab-land) {
-          width: 20rem;
+        @include respond(tab-port) {
+          width: 24rem;
+          position: relative;
+          bottom: 1rem;
         }
+        @include respond(1001) {
+          width: 27rem;
+        }
+     
         @include respond(medium-desk) {
           width: 32rem;
         }
@@ -63,8 +68,7 @@
         font-family: gothemlight;
       }
       .about-buttons-mobile {
-
-        @include respond(tab-port){
+        @include respond(tab-port) {
           display: none;
         }
 
@@ -77,14 +81,14 @@
         a {
           // added
           font-size: 20px;
-            font-family: gothemBold;
-            color: $white;
-            background-color: $light-green;
-            padding: 0.6rem 3rem;
-            border-radius: 25px;
-            text-decoration: none;
-            color: $white;
-            transition: background-color 250ms ease-in;
+          font-family: gothemBold;
+          color: $white;
+          background-color: $light-green;
+          padding: 0.6rem 3rem;
+          border-radius: 25px;
+          text-decoration: none;
+          color: $white;
+          transition: background-color 250ms ease-in;
           @include respond(tab-port) {
             display: none;
           }
@@ -94,17 +98,24 @@
 
     span {
       position: relative;
-      bottom: 1rem;
-
-      width: 80%;
+      bottom: 1.5rem;
+      width: 85%;
       height: 23rem;
-
       display: flex;
       flex-direction: column;
       justify-content: space-between;
 
-      @include respond(tab-land) {
+      @include respond(tab-port) {
+        width: 51%;
+      }
+      @include respond(1001) {
+        width: 45%;
+      }
+     
+
+      @include respond(medium-desk) {
         width: 35%;
+        
       }
 
       h2 {
@@ -117,8 +128,13 @@
       p {
         a {
           color: $white;
+          display: inline;
+
+          @include respond(direction) {
+            display: block;
+          }
         }
-      }
+      } 
       .about-contact-text {
         font-family: gothemlight;
       }
@@ -181,3 +197,8 @@
     }
   }
 }
+
+@media only screen and (max-width: 1001px) and (min-width: 901px) {
+
+}
+
