@@ -22,7 +22,9 @@
   color: $white;
   background-image: linear-gradient($pink, #fde8e5);
 
+
   div {
+
     height: 40rem;
 
     @include respond(tab-port) {
@@ -96,9 +98,8 @@
       p {
         // margin-bottom: 3.5rem;
 
-        span {
-          text-decoration: underline;
-          display: inline;
+        a {
+          color: $white;
         }
       }
 
@@ -108,19 +109,20 @@
 
         a {
           font-size: 20px;
+          font-family: gothemBold;
           color: $white;
           background-color: $light-green;
           padding: 0.6rem 3rem;
           border-radius: 25px;
-          border: transparent;
-          width: fit-content;
+
           text-decoration: none;
           color: $white;
-          width: fit-content;
-          transition: background-color 500ms ease-in;
+
+          transition: background-color 250ms ease-in;
           &:hover {
-            background-color: $dark-green;
-            border: 4px solid $red;
+            background-color: $white;
+            color: $light-green;
+            // border: 4px solid $red;
           }
         }
       }

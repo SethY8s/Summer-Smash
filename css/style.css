@@ -174,9 +174,8 @@ header .header-logo {
 .about div span h2 {
   font-size: 54px;
 }
-.about div span p span {
-  text-decoration: underline;
-  display: inline;
+.about div span p a {
+  color: #fff;
 }
 .about div span .about-buttons {
   margin-right: 7rem;
@@ -184,20 +183,18 @@ header .header-logo {
 }
 .about div span .about-buttons a {
   font-size: 20px;
+  font-family: gothemBold;
   color: #fff;
   background-color: #56b947;
   padding: 0.6rem 3rem;
   border-radius: 25px;
-  border: transparent;
-  width: fit-content;
   text-decoration: none;
   color: #fff;
-  width: fit-content;
-  transition: background-color 500ms ease-in;
+  transition: background-color 250ms ease-in;
 }
 .about div span .about-buttons a:hover {
-  background-color: #005029;
-  border: 4px solid #c4121a;
+  background-color: #fff;
+  color: #56b947;
 }
 
 .band-student {

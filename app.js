@@ -31,3 +31,10 @@ const scrollingDrops = new IntersectionObserver(function (
 scrollOptions);
 
 scrollingDrops.observe(startingPoint);
+
+const onLoad = () => {
+    document.getElementById('click-for-scroll-animation').click()
+
+}
+
+setTimeout(onLoad, 2500)
