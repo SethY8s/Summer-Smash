@@ -1,7 +1,10 @@
 .image-background-color {
     margin-top: 6rem;
     
-    width: 60%;
+    width: 90%;
+    @include respond(tab-port) {
+      width: 60%;
+    }
     background-color: rgb(49, 49, 49);
     border-radius: 20px;
   .image-slider-border {

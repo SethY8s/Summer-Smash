@@ -93,9 +93,14 @@ header .header-logo {
 
 .image-background-color {
   margin-top: 6rem;
-  width: 60%;
+  width: 90%;
   background-color: rgb(49, 49, 49);
   border-radius: 20px;
+}
+@media only screen and (min-width: 56.25em) {
+  .image-background-color {
+    width: 60%;
+  }
 }
 .image-background-color .image-slider-border {
   width: 100%;
@@ -121,7 +126,7 @@ header .header-logo {
   background-image: linear-gradient(#f06f60, #fde8e5);
 }
 .about div {
-  height: 40rem;
+  height: 50rem;
   display: flex;
   flex-direction: column-reverse;
   justify-content: space-evenly;
@@ -151,29 +156,69 @@ header .header-logo {
   width: 80%;
   border-radius: 5px;
 }
-@media only screen and (min-width: 56.25em) {
+@media only screen and (min-width: 75em) {
   .about div .about-image-text img {
-    width: 30rem;
+    width: 20rem;
+  }
+}
+@media only screen and (min-width: 82em) {
+  .about div .about-image-text img {
+    width: 32rem;
   }
 }
 .about div .about-image-text p {
   margin-top: 1rem;
   font-family: gothemlight;
 }
+.about div .about-image-text .about-buttons-mobile {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+@media only screen and (min-width: 56.25em) {
+  .about div .about-image-text .about-buttons-mobile {
+    display: none;
+  }
+}
+.about div .about-image-text .about-buttons-mobile a {
+  font-size: 20px;
+  font-family: gothemBold;
+  color: #fff;
+  background-color: #56b947;
+  padding: 0.6rem 3rem;
+  border-radius: 25px;
+  text-decoration: none;
+  color: #fff;
+  transition: background-color 250ms ease-in;
+}
+@media only screen and (min-width: 56.25em) {
+  .about div .about-image-text .about-buttons-mobile a {
+    display: none;
+  }
+}
 .about div span {
+  position: relative;
+  bottom: 1rem;
   width: 80%;
   height: 23rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-@media only screen and (min-width: 56.25em) {
+@media only screen and (min-width: 75em) {
   .about div span {
     width: 35%;
   }
 }
 .about div span h2 {
-  font-size: 46px;
+  font-size: 36px;
+}
+@media only screen and (min-width: 37.5em) {
+  .about div span h2 {
+    font-size: 46px;
+  }
 }
 .about div span p a {
   color: #fff;
@@ -189,24 +234,35 @@ header .header-logo {
   justify-content: space-evenly;
 }
 .about div span .about-buttons a {
-  font-size: 20px;
-  font-family: gothemBold;
-  color: #fff;
-  background-color: #56b947;
-  padding: 0.6rem 3rem;
-  border-radius: 25px;
-  text-decoration: none;
-  color: #fff;
-  transition: background-color 250ms ease-in;
+  display: none;
 }
-.about div span .about-buttons a:hover {
-  background-color: #fff;
-  color: #56b947;
+@media only screen and (min-width: 56.25em) {
+  .about div span .about-buttons a {
+    display: inline;
+    font-size: 20px;
+    font-family: gothemBold;
+    color: #fff;
+    background-color: #56b947;
+    padding: 0.6rem 3rem;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #fff;
+    transition: background-color 250ms ease-in;
+  }
+  .about div span .about-buttons a:hover {
+    background-color: #fff;
+    color: #56b947;
+  }
+}
+.about div span .about-buttons .sponsor-button {
+  padding: 0.6rem 2.26rem;
 }
 
-.band-student {
-  position: relative;
-  bottom: 15rem;
+@media only screen and (min-width: 37.5em) {
+  .band-student {
+    position: relative;
+    bottom: 15rem;
+  }
 }
 .band-student .band-student-container {
   display: flex;

@@ -9,26 +9,22 @@
   }
 }
 
-// .everything-about{
-//    position: relative;
-//    bottom: 10rem;
-// }
-
-// .about-top {
-//   margin-top: 10rem;
-// }
-
 .about {
   color: $white;
   background-image: linear-gradient($pink, #fde8e5);
 
-
   div {
+    height: 50rem;
 
-    height: 40rem;
+    // added
+    // position: relative;
+    // top: 3rem;
+
+    // addedend
 
     @include respond(tab-port) {
       height: 20rem;
+     
     }
 
     // margin: 0 0 0 0rem;
@@ -55,27 +51,51 @@
         width: 80%;
         border-radius: 5px;
 
-        @include respond(tab-port) {
-          width: 30rem;
+        @include respond(tab-land) {
+          width: 20rem;
+        }
+        @include respond(medium-desk) {
+          width: 32rem;
         }
       }
       p {
         margin-top: 1rem;
         font-family: gothemlight;
       }
+      .about-buttons-mobile {
+
+        @include respond(tab-port){
+          display: none;
+        }
+
+        width: 100%;
+        height: 5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+
+        a {
+          // added
+          font-size: 20px;
+            font-family: gothemBold;
+            color: $white;
+            background-color: $light-green;
+            padding: 0.6rem 3rem;
+            border-radius: 25px;
+            text-decoration: none;
+            color: $white;
+            transition: background-color 250ms ease-in;
+          @include respond(tab-port) {
+            display: none;
+          }
+        }
+      }
     }
 
-    // img {
-    //   width: 80%;
-    //   border-radius: 5px;
-
-    //   @include respond(tab-port) {
-    //     width: 30rem;
-    //   }
-    // }
-
     span {
-      // height: fit-content;
+      position: relative;
+      bottom: 1rem;
+
       width: 80%;
       height: 23rem;
 
@@ -83,27 +103,23 @@
       flex-direction: column;
       justify-content: space-between;
 
-      @include respond(tab-port) {
+      @include respond(tab-land) {
         width: 35%;
       }
 
       h2 {
-        font-size: 46px;
+        font-size: 36px;
+        @include respond(phone) {
+          font-size: 46px;
+        }
       }
 
-      // h4 {
-      //   font-size: 18px;
-      //   font-family: gothemLight;
-      //   margin-top: 1rem;
-      // }
       p {
-        // margin-bottom: 3.5rem;
-
         a {
           color: $white;
         }
       }
-      .about-contact-text{
+      .about-contact-text {
         font-family: gothemlight;
       }
 
@@ -115,22 +131,51 @@
         justify-content: space-evenly;
 
         a {
-          font-size: 20px;
-          font-family: gothemBold;
-          color: $white;
-          background-color: $light-green;
-          padding: 0.6rem 3rem;
-          border-radius: 25px;
+          // added
+          display: none;
+          @include respond(tab-port) {
+            display: inline;
+            font-size: 20px;
+            font-family: gothemBold;
+            color: $white;
 
-          text-decoration: none;
-          color: $white;
+            background-color: $light-green;
 
-          transition: background-color 250ms ease-in;
-          &:hover {
-            background-color: $white;
-            color: $light-green;
-            // border: 4px solid $red;
+            padding: 0.6rem 3rem;
+            border-radius: 25px;
+
+            text-decoration: none;
+            color: $white;
+
+            transition: background-color 250ms ease-in;
+            &:hover {
+              background-color: $white;
+              color: $light-green;
+            }
           }
+          // end of added
+
+          // font-size: 20px;
+          // font-family: gothemBold;
+          // color: $white;
+
+          // background-color: $light-green;
+
+          // padding: 0.6rem 3rem;
+          // border-radius: 25px;
+
+          // text-decoration: none;
+          // color: $white;
+
+          // transition: background-color 250ms ease-in;
+          // &:hover {
+          //   background-color: $white;
+          //   color: $light-green;
+          // }
+        }
+
+        .sponsor-button {
+          padding: 0.6rem 2.26rem;
         }
       }
     }
