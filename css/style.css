@@ -260,11 +260,16 @@ header .header-logo {
   font-family: gothemlight;
 }
 .about div span .about-buttons {
-  width: 100%;
-  margin-right: 7rem;
-  margin-top: 1.3rem;
-  display: flex;
-  justify-content: space-evenly;
+  display: none;
+}
+@media only screen and (min-width: 56.25em) {
+  .about div span .about-buttons {
+    width: 100%;
+    margin-right: 7rem;
+    margin-top: 1.3rem;
+    display: flex;
+    justify-content: space-evenly;
+  }
 }
 .about div span .about-buttons a {
   display: none;
@@ -291,7 +296,7 @@ header .header-logo {
   padding: 0.6rem 2.26rem;
 }
 
-@media only screen and (min-width: 37.5em) {
+@media only screen and (min-width: 56.25em) {
   .band-student {
     position: relative;
     bottom: 15rem;

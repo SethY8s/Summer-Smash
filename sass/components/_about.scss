@@ -140,11 +140,15 @@
       }
 
       .about-buttons {
-        width: 100%;
-        margin-right: 7rem;
-        margin-top: 1.3rem;
-        display: flex;
-        justify-content: space-evenly;
+        display: none;
+        @include respond(tab-port) {
+          width: 100%;
+          margin-right: 7rem;
+          margin-top: 1.3rem;
+          display: flex;
+          justify-content: space-evenly;
+        }
+       
 
         a {
           // added
