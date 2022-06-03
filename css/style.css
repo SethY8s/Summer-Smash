@@ -260,10 +260,24 @@ header .header-logo {
 }
 .about div span h2 {
   font-size: 36px;
+  text-align: center;
 }
 @media only screen and (min-width: 37.5em) {
   .about div span h2 {
     font-size: 46px;
+  }
+}
+@media only screen and (min-width: 56.25em) {
+  .about div span h2 {
+    text-align: left;
+  }
+}
+.about div span p {
+  text-align: center;
+}
+@media only screen and (min-width: 56.25em) {
+  .about div span p {
+    text-align: left;
   }
 }
 .about div span p a {
@@ -327,19 +341,33 @@ header .header-logo {
   align-items: center;
 }
 .band-student .band-student-container img {
-  width: 60%;
+  width: 80%;
+}
+@media only screen and (min-width: 56.25em) {
+  .band-student .band-student-container img {
+    width: 60%;
+    margin-top: 0;
+  }
+}
+@media only screen and (min-width: 37.5em) {
+  .band-student .band-student-container img {
+    margin-top: 0;
+  }
 }
 .band-student .band-student-container h4 {
-  font-size: 64px;
+  font-size: 40px;
   text-align: center;
   font-family: "blen";
   color: #f06f60;
   position: relative;
   top: 2rem;
 }
+@media only screen and (min-width: 37.5em) {
+  .band-student .band-student-container h4 {
+    font-size: 64px;
+  }
+}
 .band-student .band-student-container .at-Nina-June {
-  display: flex;
-  justify-content: center;
   width: 100%;
   margin-top: 3rem;
 }
@@ -350,7 +378,8 @@ header .header-logo {
 }
 .band-student .band-student-container .at-Nina-June a {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 .band-student .band-student-container .at-Nina-June h6 {
   font-family: "blen";
@@ -367,7 +396,15 @@ header .header-logo {
 .band-student .band-student-container p {
   font-size: 15px;
   margin-top: 2rem;
-  width: 58%;
+  width: 57%;
+  width: 90%;
+  text-align: center;
+}
+@media only screen and (min-width: 56.25em) {
+  .band-student .band-student-container p {
+    width: 57%;
+    text-align: left;
+  }
 }
 
 @media only screen and (min-width: 56.25em) {

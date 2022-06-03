@@ -135,12 +135,22 @@
 
       h2 {
         font-size: 36px;
+        text-align: center;
         @include respond(phone) {
           font-size: 46px;
+        }
+        @include respond(tab-port) {
+          text-align: left;
         }
       }
 
       p {
+        text-align: center;
+
+        @include respond(tab-port) {
+          text-align: left;
+        }
+
         a {
           color: $white;
           display: inline;
