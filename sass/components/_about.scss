@@ -15,13 +15,7 @@
 
   div {
     height: 51rem;
-
-    // added
-    // position: relative;
-    // top: 3rem;
-
-    // addedend
-
+    
     @include respond(tab-port) {
       height: 20rem;
     }
@@ -48,10 +42,17 @@
       flex-wrap: nowrap;
       position: relative;
       top: 1rem;
+      
 
       img {
+        
         width: 80%;
         border-radius: 5px;
+
+        @include respond(400) {
+         position: relative;
+         top: 2.5rem;
+        }
 
         @include respond(tab-port) {
           width: 24rem;
@@ -67,9 +68,14 @@
         }
       }
       p {
-        margin-top: 0rem;
-        margin: 0;
+        
+        margin: -1rem 0 0 0;
         font-family: gothemlight;
+
+        @include respond(400) {
+          font-size: 13px;
+          margin-top: -2rem;
+        }
 
         @include respond(phone) {
           margin-top: .5rem;
@@ -123,7 +129,8 @@
 
     span {
       // position: relative;
-      // bottom: 1.5rem;
+      // bottom: 1rem;
+
       width: 85%;
       height: 23rem;
       display: flex;
@@ -144,7 +151,7 @@
       }
 
       h2 {
-        font-size: 36px;
+        font-size: 30px;
         text-align: center;
         @include respond(phone) {
           font-size: 46px;
@@ -208,25 +215,6 @@
               color: $light-green;
             }
           }
-          // end of added
-
-          // font-size: 20px;
-          // font-family: gothemBold;
-          // color: $white;
-
-          // background-color: $light-green;
-
-          // padding: 0.6rem 3rem;
-          // border-radius: 25px;
-
-          // text-decoration: none;
-          // color: $white;
-
-          // transition: background-color 250ms ease-in;
-          // &:hover {
-          //   background-color: $white;
-          //   color: $light-green;
-          // }
         }
 
         .sponsor-button {
