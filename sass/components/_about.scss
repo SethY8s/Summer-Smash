@@ -89,7 +89,7 @@
           font-family: gothemBold;
           color: $white;
           background-color: $light-green;
-          padding: 0.6rem 5rem;
+          padding: 0.6rem 4.8rem;
           border-radius: 25px;
           text-decoration: none;
           color: $white;
@@ -104,7 +104,7 @@
           }
         }
         .sponsor-button {
-          padding: 0.6rem 4.26rem;
+          padding: 0.6rem 4.05rem;
 
           @include respond(phone) {
             padding: 0.6rem 2.26rem;
