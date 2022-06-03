@@ -136,7 +136,7 @@ header .header-logo {
   background-image: linear-gradient(#f06f60, #fde8e5);
 }
 .about div {
-  height: 50rem;
+  height: 51rem;
   display: flex;
   flex-direction: column-reverse;
   justify-content: space-evenly;
@@ -184,8 +184,13 @@ header .header-logo {
   }
 }
 .about div .about-image-text p {
-  margin-top: 1rem;
+  margin-top: 0rem;
   font-family: gothemlight;
+}
+@media only screen and (min-width: 37.5em) {
+  .about div .about-image-text p {
+    margin-top: 1rem;
+  }
 }
 .about div .about-image-text .about-buttons-mobile {
   width: 90%;
@@ -235,8 +240,6 @@ header .header-logo {
   }
 }
 .about div span {
-  position: relative;
-  bottom: 1.5rem;
   width: 85%;
   height: 23rem;
   display: flex;
@@ -246,6 +249,8 @@ header .header-logo {
 @media only screen and (min-width: 56.25em) {
   .about div span {
     width: 51%;
+    position: relative;
+    bottom: 1.5rem;
   }
 }
 @media only screen and (min-width: 1000px) {
@@ -391,7 +396,12 @@ header .header-logo {
   margin-left: 0.85rem;
 }
 .band-student .band-student-container .at-Nina-June img {
-  width: 50%;
+  width: 70%;
+}
+@media only screen and (min-width: 56.25em) {
+  .band-student .band-student-container .at-Nina-June img {
+    width: 50%;
+  }
 }
 .band-student .band-student-container p {
   font-size: 15px;

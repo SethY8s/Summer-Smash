@@ -1,37 +1,37 @@
 @mixin respond($breakpoint) {
-    @if $breakpoint == phone {
-      @media only screen and (min-width: 37.5em) {
-        @content;
-      } //600px
-    }
-    @if $breakpoint == tab-port {
-      @media only screen and (min-width: 56.25em) {
-        @content;
-      } //900px
-    }
-    @if $breakpoint == 1001 {
-      @media only screen and (min-width: 1000px) {
-        @content;
-      } //1000
-    }
-    @if $breakpoint == tab-land {
-      @media only screen and (min-width: 75em) {
-        @content;
-      } //1200px
-    }
-    @if $breakpoint == medium-desk {
-      @media only screen and (min-width: 82em) {
-        @content;
-      } //1312px
-    }
-    @if $breakpoint == direction {
-      @media only screen and (min-width: 1400px) {
-        @content;
-      } //1312px
-    }
-    @if $breakpoint == big-desktop {
-      @media only screen and (min-width: 112.5em) {
-        @content;
-      } //1800
-    }
+  @if $breakpoint == phone {
+    @media only screen and (min-width: 37.5em) {
+      @content;
+    } //600px
   }
+  @if $breakpoint == tab-port {
+    @media only screen and (min-width: 56.25em) {
+      @content;
+    } //900px
+  }
+  @if $breakpoint == 1001 {
+    @media only screen and (min-width: 1000px) {
+      @content;
+    } //1000
+  }
+  @if $breakpoint == tab-land {
+    @media only screen and (min-width: 75em) {
+      @content;
+    } //1200px
+  }
+  @if $breakpoint == medium-desk {
+    @media only screen and (min-width: 82em) {
+      @content;
+    } //1312px
+  }
+  @if $breakpoint == direction {
+    @media only screen and (min-width: 1400px) {
+      @content;
+    } //1312px
+  }
+  @if $breakpoint == big-desktop {
+    @media only screen and (min-width: 112.5em) {
+      @content;
+    } //1800
+  }
+}

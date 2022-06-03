@@ -14,7 +14,7 @@
   background-image: linear-gradient($pink, #fde8e5);
 
   div {
-    height: 50rem;
+    height: 51rem;
 
     // added
     // position: relative;
@@ -64,8 +64,12 @@
         }
       }
       p {
-        margin-top: 1rem;
+        margin-top: 0rem;
         font-family: gothemlight;
+
+        @include respond(phone) {
+          margin-top: 1rem;
+        }
       }
       .about-buttons-mobile {
         width: 90%;
@@ -114,8 +118,8 @@
     }
 
     span {
-      position: relative;
-      bottom: 1.5rem;
+      // position: relative;
+      // bottom: 1.5rem;
       width: 85%;
       height: 23rem;
       display: flex;
@@ -124,6 +128,8 @@
 
       @include respond(tab-port) {
         width: 51%;
+        position: relative;
+        bottom: 1.5rem;
       }
       @include respond(1001) {
         width: 45%;
