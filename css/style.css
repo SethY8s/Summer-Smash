@@ -210,11 +210,16 @@ header .header-logo {
   font-family: gothemBold;
   color: #fff;
   background-color: #56b947;
-  padding: 0.6rem 3rem;
+  padding: 0.6rem 5rem;
   border-radius: 25px;
   text-decoration: none;
   color: #fff;
   transition: background-color 250ms ease-in;
+}
+@media only screen and (min-width: 37.5em) {
+  .about div .about-image-text .about-buttons-mobile a {
+    padding: 0.6rem 3rem;
+  }
 }
 @media only screen and (min-width: 56.25em) {
   .about div .about-image-text .about-buttons-mobile a {
@@ -222,7 +227,12 @@ header .header-logo {
   }
 }
 .about div .about-image-text .about-buttons-mobile .sponsor-button {
-  padding: 0.6rem 2.26rem;
+  padding: 0.6rem 4.26rem;
+}
+@media only screen and (min-width: 37.5em) {
+  .about div .about-image-text .about-buttons-mobile .sponsor-button {
+    padding: 0.6rem 2.26rem;
+  }
 }
 .about div span {
   position: relative;
