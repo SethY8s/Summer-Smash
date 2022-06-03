@@ -49,9 +49,13 @@
         width: 80%;
         border-radius: 5px;
 
-        @include respond(400) {
-         position: relative;
-         top: 2.5rem;
+        // @include respond(400) {
+        //  position: relative;
+        //  top: 1rem;
+        // }
+        @include respond(300) {
+          position: relative;
+          top:2.5rem;
         }
 
         @include respond(tab-port) {
@@ -69,12 +73,18 @@
       }
       p {
         
-        margin: -1rem 0 0 0;
+        margin: 0;
         font-family: gothemlight;
+
+        @include respond(300) {
+          position: relative;
+          top:.5rem;
+        }
 
         @include respond(400) {
           font-size: 13px;
-          margin-top: -2rem;
+          position: relative;
+          bottom: 1rem;
         }
 
         @include respond(phone) {
@@ -132,6 +142,9 @@
       // bottom: 1rem;
 
       width: 85%;
+      @include respond(400) {
+        width: 90%;
+      }
       height: 23rem;
       display: flex;
       flex-direction: column;
