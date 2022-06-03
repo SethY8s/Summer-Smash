@@ -351,19 +351,25 @@ header .header-logo {
   width: 58%;
 }
 
-.sponsors {
-  margin-bottom: 4rem;
-  position: relative;
-  bottom: 2rem;
+@media only screen and (min-width: 56.25em) {
+  .sponsors {
+    margin-bottom: 4rem;
+    position: relative;
+    bottom: 3rem;
+  }
 }
 .sponsors h4 {
-  position: relative;
-  bottom: 4rem;
+  margin-top: 4rem;
   text-align: center;
   font-family: "blen";
   font-size: 26px;
   color: #f06f60;
   line-height: 55px;
+}
+@media only screen and (min-width: 56.25em) {
+  .sponsors h4 {
+    margin-top: 0;
+  }
 }
 @media only screen and (min-width: 37.5em) {
   .sponsors h4 {

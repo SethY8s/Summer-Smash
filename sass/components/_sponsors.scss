@@ -7,20 +7,28 @@
 //   background-position-y: 65%;
 //   background-attachment: fixed;
 
-margin-bottom: 4rem;
+
+
+@include respond(tab-port) {
+  margin-bottom: 4rem;
 
 // added
 position: relative;
-bottom: 2rem;
+bottom: 3rem;
 // added end
+}
 
 
   // width: 50%;
   h4 {
     
+  margin-top: 4rem;
   
-    position: relative;
-    bottom: 4rem;
+  @include respond(tab-port) {
+    margin-top: 0;
+  }
+    // position: relative;
+    // bottom: 4rem;
     text-align: center;
     font-family: 'blen';
     font-size: 26px;
