@@ -76,7 +76,7 @@
 
         @include respond(medium-desk) {
           width: 32rem;
-          margin-top: 1.3rem;
+          margin-top: 1.8rem;
         }
       }
       p {
@@ -170,6 +170,7 @@
 
       @include respond(medium-desk) {
         width: 35%;
+        margin-bottom:1rem;
       }
 
       h2 {

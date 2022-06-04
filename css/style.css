@@ -184,7 +184,7 @@ header .header-logo {
 @media only screen and (min-width: 82em) {
   .about div .about-image-text img {
     width: 32rem;
-    margin-top: 1.3rem;
+    margin-top: 1.8rem;
   }
 }
 .about div .about-image-text p {
@@ -282,6 +282,7 @@ header .header-logo {
 @media only screen and (min-width: 82em) {
   .about div span {
     width: 35%;
+    margin-bottom: 1rem;
   }
 }
 .about div span h2 {
@@ -509,19 +510,19 @@ header .header-logo {
   font-size: 20px;
 }
 
-footer .custom-shape-divider-bottom-1653580017 {
+footer .custom-shape-divider-bottom-1654352681 {
   width: 100%;
   overflow: hidden;
   line-height: 0;
   transform: rotate(180deg);
 }
-footer .custom-shape-divider-bottom-1653580017 svg {
+footer .custom-shape-divider-bottom-1654352681 svg {
   position: relative;
   display: block;
-  width: calc(156% + 1.3px);
-  height: 81px;
+  width: calc(100% + 1.3px);
+  height: 76px;
 }
-footer .custom-shape-divider-bottom-1653580017 .shape-fill {
+footer .custom-shape-divider-bottom-1654352681 .shape-fill {
   fill: #F06F60;
 }
 footer .footer-section {

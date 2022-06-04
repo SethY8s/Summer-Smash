@@ -3,26 +3,50 @@ footer {
   
 
   // svg import
-  .custom-shape-divider-bottom-1653580017 {
-    
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-}
 
-.custom-shape-divider-bottom-1653580017 svg {
-    position: relative;
+//   .custom-shape-divider-bottom-1653580017 {
     
-    display: block;
-    width: calc(156% + 1.3px);
-    height: 81px;
-}
+//     width: 100%;
+//     overflow: hidden;
+//     line-height: 0;
+//     transform: rotate(180deg);
+// }
 
-.custom-shape-divider-bottom-1653580017 .shape-fill {
-    fill: #F06F60;
-}
+// .custom-shape-divider-bottom-1653580017 svg {
+//     position: relative;
+    
+//     display: block;
+//     width: calc(156% + 1.3px);
+//     height: 81px;
+// }
+
+// .custom-shape-divider-bottom-1653580017 .shape-fill {
+//     fill: #F06F60;
+// }
 // svg import end
+
+// new svg
+.custom-shape-divider-bottom-1654352681 {
+  // position: absolute;
+  // bottom: 0;
+  // left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1654352681 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 76px;
+}
+
+.custom-shape-divider-bottom-1654352681 .shape-fill {
+  fill: #F06F60;
+}
+// end of new svg
 
   .footer-section {
     height: 225px;
@@ -45,31 +69,6 @@ footer {
       }
     }
     
-
-   
-    // p {
-
-    //   font-size: 36px;
-    //   font-family: 'Work Sans';
-    //   line-height: 35px;
-      
-
-    //   a{
-    //     text-decoration: none;
-    //     color: #fff;
-    //   }
-
-      
-    //   .footer-span-1 {
-    //     border-bottom: 1px solid #fff;
-    //     font-family: 'Cinzel';
-    //     font-weight: 400;
-    //     line-height: 65px;
-    //   }
-
-      
-      
-    // }
   }
 }
 
