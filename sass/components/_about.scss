@@ -46,9 +46,7 @@
 
       img {
 
-        // added
-        height: fit-content;
-        // added
+        
         width: 80%;
         border-radius: 5px;
 
@@ -75,9 +73,7 @@
         }
       }
       p {
-        // added
-        height: fit-content;
-        // added
+        
         margin: 0;
         font-family: gothemlight;
 
@@ -98,9 +94,7 @@
       }
       .about-buttons-mobile {
         width: 90%;
-        // added
-        height: fit-content;
-        // added
+       
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
@@ -171,9 +165,7 @@
       }
 
       h2 {
-        // added
-        height: fit-content;
-        // added
+        
         font-size: 30px;
         text-align: center;
         @include respond(phone) {
@@ -185,9 +177,7 @@
       }
 
       p {
-        // added
-        height: fit-content;
-        // added
+        
         text-align: center;
 
         @include respond(tab-port) {
