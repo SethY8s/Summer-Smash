@@ -158,7 +158,7 @@ header .header-logo {
 .about div .about-image-text {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: flex-end;
   flex-wrap: nowrap;
   position: relative;
   top: 1rem;
