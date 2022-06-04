@@ -1,0 +1,251 @@
+.everything-about {
+    // margin-bottom: 5rem;
+  
+    margin-top: 0;
+  
+    @include respond(tab-port) {
+      position: relative;
+      bottom: 15rem;
+    }
+  }
+  
+  .about {
+    color: $white;
+    background-image: linear-gradient($pink, #fde8e5);
+  
+    div {
+    //   height: 51rem;
+      
+      @include respond(tab-port) {
+        // height: 20rem;
+      }
+  
+      // margin: 0 0 0 0rem;
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: space-evenly;
+      align-items: center;
+  
+      @include respond(tab-port) {
+        flex-direction: row;
+        flex-wrap: wrap;
+        position: relative;
+        bottom: 1rem;
+      }
+  
+      .about-image-text {
+        display: flex;
+        flex-direction: column;
+        // added
+        justify-content: flex-end;
+        // added end
+        flex-wrap: nowrap;
+        
+        @include respond(tab-port) {
+          // position: relative;
+          // top: 1rem;
+          justify-content: space-around;
+        }
+  
+    
+  
+        img {
+  
+          
+          width: 80%;
+          border-radius: 5px;
+         
+  
+          
+          @include respond(300) {
+            
+            
+          }
+  
+          @include respond(tab-port) {
+            width: 24rem;
+           margin-top: 1.3rem;
+          }
+          @include respond(1001) {
+            width: 27rem;
+            margin-top: 3rem;
+          }
+  
+          @include respond(medium-desk) {
+            width: 32rem;
+            margin-top: 1.8rem;
+          }
+        }
+        p {
+          
+          margin-bottom: 1rem;
+          font-family: gothemlight;
+  
+          @include respond(300) {
+            position: relative;
+            top:0.5rem;
+          }
+  
+          @include respond(400) {
+            font-size: 13px;
+          
+          }
+  
+          @include respond(phone) {
+            margin-top: .5rem;
+          }
+        }
+        .about-buttons-mobile {
+          width: 90%;
+          height: fit-content;
+         
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+  
+          @include respond(phone) {
+            flex-direction: row;
+          }
+  
+          @include respond(tab-port) {
+            display: none;
+          }
+  
+          a {
+            margin-top: 1rem;
+            // added
+            font-size: 20px;
+            font-family: gothemBold;
+            color: $white;
+            background-color: $light-green;
+            padding: 0.6rem 4.8rem;
+            border-radius: 25px;
+            text-decoration: none;
+            color: $white;
+            transition: background-color 250ms ease-in;
+  
+            @include respond(phone) {
+              padding: 0.6rem 3rem;
+            }
+  
+            @include respond(tab-port) {
+              display: none;
+            }
+          }
+          .sponsor-button {
+            margin-bottom: 1rem;
+            padding: 0.6rem 4.05rem;
+  
+            @include respond(phone) {
+              padding: 0.6rem 2.26rem;
+            }
+          }
+        }
+      }
+  
+      span {
+        // position: relative;
+        // bottom: 1rem;
+  
+        width: 85%;
+        @include respond(400) {
+          width: 90%;
+        }
+        height: 23rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+  
+        @include respond(tab-port) {
+          width: 51%;
+          position: relative;
+          bottom: 1.5rem;
+        }
+        @include respond(1001) {
+          width: 45%;
+        }
+  
+        @include respond(medium-desk) {
+          width: 35%;
+          margin-bottom:1rem;
+        }
+  
+        h2 {
+          
+          font-size: 30px;
+          text-align: center;
+          @include respond(phone) {
+            font-size: 46px;
+          }
+          @include respond(tab-port) {
+            text-align: left;
+          }
+        }
+  
+        p {
+          
+          text-align: center;
+  
+          @include respond(tab-port) {
+            text-align: left;
+          }
+  
+          a {
+            color: $white;
+            display: inline;
+  
+            @include respond(direction) {
+              display: block;
+            }
+          }
+        }
+        .about-contact-text {
+          font-family: gothemlight;
+        }
+  
+        .about-buttons {
+          display: none;
+  
+          @include respond(tab-port) {
+            width: 100%;
+            margin-right: 7rem;
+            margin-top: 1.3rem;
+            display: flex;
+            justify-content: space-evenly;
+          }
+  
+          a {
+            // added
+            display: none;
+            @include respond(tab-port) {
+              display: inline;
+              font-size: 20px;
+              font-family: gothemBold;
+              color: $white;
+  
+              background-color: $light-green;
+  
+              padding: 0.6rem 3rem;
+              border-radius: 25px;
+  
+              text-decoration: none;
+              color: $white;
+  
+              transition: background-color 250ms ease-in;
+              &:hover {
+                background-color: $white;
+                color: $light-green;
+              }
+            }
+          }
+  
+          .sponsor-button {
+            padding: 0.6rem 2.26rem;
+          }
+        }
+      }
+    }
+  }
+  
+  
+  

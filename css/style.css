@@ -136,16 +136,10 @@ header .header-logo {
   background-image: linear-gradient(#f06f60, #fde8e5);
 }
 .about div {
-  height: 51rem;
   display: flex;
   flex-direction: column-reverse;
   justify-content: space-evenly;
   align-items: center;
-}
-@media only screen and (min-width: 56.25em) {
-  .about div {
-    height: 20rem;
-  }
 }
 @media only screen and (min-width: 56.25em) {
   .about div {
