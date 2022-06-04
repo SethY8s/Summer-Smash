@@ -173,7 +173,6 @@ header .header-logo {
 @media only screen and (min-width: 56.25em) {
   .about div .about-image-text img {
     width: 24rem;
-    margin-top: 1.3rem;
   }
 }
 @media only screen and (min-width: 1000px) {
@@ -184,7 +183,6 @@ header .header-logo {
 @media only screen and (min-width: 82em) {
   .about div .about-image-text img {
     width: 32rem;
-    margin-top: 1.8rem;
   }
 }
 .about div .about-image-text p {
@@ -200,11 +198,6 @@ header .header-logo {
 @media only screen and (max-width: 387px) {
   .about div .about-image-text p {
     font-size: 13px;
-  }
-}
-@media only screen and (min-width: 37.5em) {
-  .about div .about-image-text p {
-    margin-top: 0.5rem;
   }
 }
 .about div .about-image-text .about-buttons-mobile {

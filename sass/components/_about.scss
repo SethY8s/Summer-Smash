@@ -56,10 +56,7 @@
         border-radius: 5px;
        
 
-        // @include respond(400) {
-        //  position: relative;
-        //  top: 1rem;
-        // }
+        
         @include respond(300) {
           
           
@@ -67,7 +64,7 @@
 
         @include respond(tab-port) {
           width: 24rem;
-         margin-top: 1.3rem;
+        //  margin-top: 1.3rem;
         }
         @include respond(1001) {
           width: 27rem;
@@ -76,7 +73,7 @@
 
         @include respond(medium-desk) {
           width: 32rem;
-          margin-top: 1.8rem;
+          // margin-top: 1.8rem;
         }
       }
       p {
@@ -86,7 +83,7 @@
 
         @include respond(300) {
           position: relative;
-          top:.5rem;
+          top:0.5rem;
         }
 
         @include respond(400) {
@@ -95,7 +92,7 @@
         }
 
         @include respond(phone) {
-          margin-top: .5rem;
+          // margin-top: .5rem;
         }
       }
       .about-buttons-mobile {
