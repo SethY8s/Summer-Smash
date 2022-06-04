@@ -214,6 +214,7 @@ header .header-logo {
 }
 .about div .about-image-text .about-buttons-mobile {
   width: 90%;
+  height: fit-content;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
