@@ -15,7 +15,7 @@
 
   div {
     height: 51rem;
-    
+
     @include respond(tab-port) {
       height: 20rem;
     }
@@ -40,31 +40,19 @@
       justify-content: flex-end;
       // added end
       flex-wrap: nowrap;
-      
+
       @include respond(tab-port) {
         // position: relative;
         // top: 1rem;
         justify-content: space-around;
       }
 
-  
-
       img {
-
-        
         width: 80%;
         border-radius: 5px;
-       
-
-        
-        @include respond(300) {
-          
-          
-        }
 
         @include respond(tab-port) {
           width: 24rem;
-         margin-top: 1.3rem;
         }
         @include respond(1001) {
           width: 27rem;
@@ -77,28 +65,26 @@
         }
       }
       p {
-        
         margin-bottom: 1rem;
         font-family: gothemlight;
 
         @include respond(300) {
           position: relative;
-          top:0.5rem;
+          top: 0.5rem;
         }
 
         @include respond(400) {
           font-size: 13px;
-        
         }
 
         @include respond(phone) {
-          margin-top: .5rem;
+          margin-top: 0.5rem;
         }
       }
       .about-buttons-mobile {
         width: 90%;
         height: fit-content;
-       
+
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
@@ -167,11 +153,10 @@
 
       @include respond(medium-desk) {
         width: 35%;
-        margin-bottom:1rem;
+        margin-bottom: 1rem;
       }
 
       h2 {
-        
         font-size: 30px;
         text-align: center;
         @include respond(phone) {
@@ -183,7 +168,6 @@
       }
 
       p {
-        
         text-align: center;
 
         @include respond(tab-port) {
@@ -246,5 +230,3 @@
     }
   }
 }
-
-
