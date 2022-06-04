@@ -370,6 +370,14 @@ header .header-logo {
   flex-direction: column;
   align-items: center;
 }
+.band-student .band-student-container .soul-bender-image {
+  margin-top: 1rem;
+}
+@media only screen and (min-width: 37.5em) {
+  .band-student .band-student-container .soul-bender-image {
+    margin-top: 0;
+  }
+}
 .band-student .band-student-container img {
   width: 80%;
 }

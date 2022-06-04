@@ -18,17 +18,25 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    
+
+// this and image are the same thing but adding margin to img messed some things up
+    .soul-bender-image{
+      margin-top: 1rem;
+      @include respond(phone) {
+        margin-top: 0;
+      }
+    }
 
     img {
       width: 80%;
-    
+      
       @include respond(tab-port) {
         width: 60%;
         margin-top: 0rem;
       }
 
       @include respond(phone) {
-        
         margin-top: 0;
       }
 
