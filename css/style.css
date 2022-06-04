@@ -135,74 +135,80 @@ header .header-logo {
   color: #fff;
   background-image: linear-gradient(#f06f60, #fde8e5);
 }
-.about div {
+.about > div {
+  height: 51rem;
   display: flex;
   flex-direction: column-reverse;
   justify-content: space-evenly;
   align-items: center;
 }
 @media only screen and (min-width: 56.25em) {
-  .about div {
+  .about > div {
+    height: 20rem;
+  }
+}
+@media only screen and (min-width: 56.25em) {
+  .about > div {
     flex-direction: row;
     flex-wrap: wrap;
     position: relative;
     bottom: 1rem;
   }
 }
-.about div .about-image-text {
+.about > div .about-image-text {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   flex-wrap: nowrap;
 }
 @media only screen and (min-width: 56.25em) {
-  .about div .about-image-text {
+  .about > div .about-image-text {
     justify-content: space-around;
   }
 }
-.about div .about-image-text img {
+.about > div .about-image-text img {
   width: 80%;
   border-radius: 5px;
 }
 @media only screen and (min-width: 56.25em) {
-  .about div .about-image-text img {
+  .about > div .about-image-text img {
     width: 24rem;
     margin-top: 1.3rem;
   }
 }
 @media only screen and (min-width: 1000px) {
-  .about div .about-image-text img {
+  .about > div .about-image-text img {
     width: 27rem;
     margin-top: 3rem;
   }
 }
 @media only screen and (min-width: 82em) {
-  .about div .about-image-text img {
+  .about > div .about-image-text img {
     width: 32rem;
     margin-top: 1.8rem;
   }
 }
-.about div .about-image-text p {
+.about > div .about-image-text p {
   margin-bottom: 1rem;
   font-family: gothemlight;
 }
 @media only screen and (max-width: 335px) {
-  .about div .about-image-text p {
+  .about > div .about-image-text p {
     position: relative;
     top: 0.5rem;
   }
 }
 @media only screen and (max-width: 387px) {
-  .about div .about-image-text p {
+  .about > div .about-image-text p {
     font-size: 13px;
   }
 }
 @media only screen and (min-width: 37.5em) {
-  .about div .about-image-text p {
+  .about > div .about-image-text p {
     margin-top: 0.5rem;
   }
 }
-.about div .about-image-text .about-buttons-mobile {
+.about > div .about-image-text .about-buttons-mobile {
   width: 90%;
   height: fit-content;
   display: flex;
@@ -210,16 +216,16 @@ header .header-logo {
   justify-content: space-evenly;
 }
 @media only screen and (min-width: 37.5em) {
-  .about div .about-image-text .about-buttons-mobile {
+  .about > div .about-image-text .about-buttons-mobile {
     flex-direction: row;
   }
 }
 @media only screen and (min-width: 56.25em) {
-  .about div .about-image-text .about-buttons-mobile {
+  .about > div .about-image-text .about-buttons-mobile {
     display: none;
   }
 }
-.about div .about-image-text .about-buttons-mobile a {
+.about > div .about-image-text .about-buttons-mobile a {
   margin-top: 1rem;
   font-size: 20px;
   font-family: gothemBold;
@@ -232,25 +238,25 @@ header .header-logo {
   transition: background-color 250ms ease-in;
 }
 @media only screen and (min-width: 37.5em) {
-  .about div .about-image-text .about-buttons-mobile a {
+  .about > div .about-image-text .about-buttons-mobile a {
     padding: 0.6rem 3rem;
   }
 }
 @media only screen and (min-width: 56.25em) {
-  .about div .about-image-text .about-buttons-mobile a {
+  .about > div .about-image-text .about-buttons-mobile a {
     display: none;
   }
 }
-.about div .about-image-text .about-buttons-mobile .sponsor-button {
+.about > div .about-image-text .about-buttons-mobile .sponsor-button {
   margin-bottom: 1rem;
   padding: 0.6rem 4.05rem;
 }
 @media only screen and (min-width: 37.5em) {
-  .about div .about-image-text .about-buttons-mobile .sponsor-button {
+  .about > div .about-image-text .about-buttons-mobile .sponsor-button {
     padding: 0.6rem 2.26rem;
   }
 }
-.about div span {
+.about > div span {
   width: 85%;
   height: 23rem;
   display: flex;
@@ -258,67 +264,67 @@ header .header-logo {
   justify-content: space-between;
 }
 @media only screen and (max-width: 387px) {
-  .about div span {
+  .about > div span {
     width: 90%;
   }
 }
 @media only screen and (min-width: 56.25em) {
-  .about div span {
+  .about > div span {
     width: 51%;
     position: relative;
     bottom: 1.5rem;
   }
 }
 @media only screen and (min-width: 1000px) {
-  .about div span {
+  .about > div span {
     width: 45%;
   }
 }
 @media only screen and (min-width: 82em) {
-  .about div span {
+  .about > div span {
     width: 35%;
     margin-bottom: 1rem;
   }
 }
-.about div span h2 {
+.about > div span h2 {
   font-size: 30px;
   text-align: center;
 }
 @media only screen and (min-width: 37.5em) {
-  .about div span h2 {
+  .about > div span h2 {
     font-size: 46px;
   }
 }
 @media only screen and (min-width: 56.25em) {
-  .about div span h2 {
+  .about > div span h2 {
     text-align: left;
   }
 }
-.about div span p {
+.about > div span p {
   text-align: center;
 }
 @media only screen and (min-width: 56.25em) {
-  .about div span p {
+  .about > div span p {
     text-align: left;
   }
 }
-.about div span p a {
+.about > div span p a {
   color: #fff;
   display: inline;
 }
 @media only screen and (min-width: 1400px) {
-  .about div span p a {
+  .about > div span p a {
     display: block;
   }
 }
-.about div span .about-contact-text {
+.about > div span .about-contact-text {
   font-family: gothemlight;
 }
-.about div span .about-buttons {
+.about > div span .about-buttons {
   display: none;
 }
 @media only screen and (min-width: 56.25em) {
-  .about div span .about-buttons {
+  .about > div span .about-buttons {
     width: 100%;
     margin-right: 7rem;
     margin-top: 1.3rem;
@@ -326,11 +332,11 @@ header .header-logo {
     justify-content: space-evenly;
   }
 }
-.about div span .about-buttons a {
+.about > div span .about-buttons a {
   display: none;
 }
 @media only screen and (min-width: 56.25em) {
-  .about div span .about-buttons a {
+  .about > div span .about-buttons a {
     display: inline;
     font-size: 20px;
     font-family: gothemBold;
@@ -342,12 +348,12 @@ header .header-logo {
     color: #fff;
     transition: background-color 250ms ease-in;
   }
-  .about div span .about-buttons a:hover {
+  .about > div span .about-buttons a:hover {
     background-color: #fff;
     color: #56b947;
   }
 }
-.about div span .about-buttons .sponsor-button {
+.about > div span .about-buttons .sponsor-button {
   padding: 0.6rem 2.26rem;
 }
 

@@ -13,11 +13,11 @@
     color: $white;
     background-image: linear-gradient($pink, #fde8e5);
   
-    div {
-    //   height: 51rem;
+    >div {
+      height: 51rem;
       
       @include respond(tab-port) {
-        // height: 20rem;
+        height: 20rem;
       }
   
       // margin: 0 0 0 0rem;
