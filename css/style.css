@@ -515,6 +515,8 @@ header .header-logo {
   overflow: hidden;
   line-height: 0;
   transform: rotate(180deg);
+  position: relative;
+  top: 1px;
 }
 
 .custom-shape-divider-bottom-1653580017 svg {
@@ -525,7 +527,7 @@ header .header-logo {
 }
 
 .custom-shape-divider-bottom-1653580017 .shape-fill {
-  fill: #F06F60;
+  fill: #f06f60;
 }
 
 footer .footer-section {

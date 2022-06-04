@@ -1,53 +1,48 @@
-
 .custom-shape-divider-bottom-1653580017 {
-    
+  
   width: 100%;
   overflow: hidden;
   line-height: 0;
   transform: rotate(180deg);
+  position: relative;
+  top: 1px;
 }
 
 .custom-shape-divider-bottom-1653580017 svg {
   position: relative;
-  
+
   display: block;
   width: calc(156% + 1.3px);
   height: 81px;
 }
 
 .custom-shape-divider-bottom-1653580017 .shape-fill {
-  fill: #F06F60;
+  fill: #f06f60;
 }
 
 footer {
-
-  
-
   // svg import
 
-//   .custom-shape-divider-bottom-1653580017 {
-    
-//     width: 100%;
-//     overflow: hidden;
-//     line-height: 0;
-//     transform: rotate(180deg);
-// }
+  //   .custom-shape-divider-bottom-1653580017 {
 
-// .custom-shape-divider-bottom-1653580017 svg {
-//     position: relative;
-    
-//     display: block;
-//     width: calc(156% + 1.3px);
-//     height: 81px;
-// }
+  //     width: 100%;
+  //     overflow: hidden;
+  //     line-height: 0;
+  //     transform: rotate(180deg);
+  // }
 
-// .custom-shape-divider-bottom-1653580017 .shape-fill {
-//     fill: #F06F60;
-// }
-// svg import end
+  // .custom-shape-divider-bottom-1653580017 svg {
+  //     position: relative;
 
+  //     display: block;
+  //     width: calc(156% + 1.3px);
+  //     height: 81px;
+  // }
 
-
+  // .custom-shape-divider-bottom-1653580017 .shape-fill {
+  //     fill: #F06F60;
+  // }
+  // svg import end
 
   .footer-section {
     height: 225px;
@@ -57,19 +52,16 @@ footer {
     align-items: flex-start;
     justify-content: center;
     align-items: center;
-   
+
     color: #fff;
 
-    img{
-      
-     width: 16rem;
-      height:auto;
+    img {
+      width: 16rem;
+      height: auto;
 
       @include respond(phone) {
         width: 20rem;
       }
     }
-    
   }
 }
-
