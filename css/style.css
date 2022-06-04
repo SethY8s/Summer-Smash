@@ -510,21 +510,24 @@ header .header-logo {
   font-size: 20px;
 }
 
-footer .custom-shape-divider-bottom-1654352681 {
+.custom-shape-divider-bottom-1653580017 {
   width: 100%;
   overflow: hidden;
   line-height: 0;
   transform: rotate(180deg);
 }
-footer .custom-shape-divider-bottom-1654352681 svg {
+
+.custom-shape-divider-bottom-1653580017 svg {
   position: relative;
   display: block;
-  width: calc(100% + 1.3px);
-  height: 76px;
+  width: calc(156% + 1.3px);
+  height: 81px;
 }
-footer .custom-shape-divider-bottom-1654352681 .shape-fill {
+
+.custom-shape-divider-bottom-1653580017 .shape-fill {
   fill: #F06F60;
 }
+
 footer .footer-section {
   height: 225px;
   width: 100%;
