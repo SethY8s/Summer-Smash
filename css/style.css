@@ -188,7 +188,7 @@ header .header-logo {
   }
 }
 .about div .about-image-text p {
-  margin: 0;
+  margin-bottom: 1rem;
   font-family: gothemlight;
 }
 @media only screen and (max-width: 335px) {
@@ -200,8 +200,6 @@ header .header-logo {
 @media only screen and (max-width: 387px) {
   .about div .about-image-text p {
     font-size: 13px;
-    position: relative;
-    bottom: 1rem;
   }
 }
 @media only screen and (min-width: 37.5em) {

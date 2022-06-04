@@ -47,11 +47,14 @@
         justify-content: space-around;
       }
 
+  
+
       img {
 
         
         width: 80%;
         border-radius: 5px;
+       
 
         // @include respond(400) {
         //  position: relative;
@@ -78,7 +81,7 @@
       }
       p {
         
-        margin: 0;
+        margin-bottom: 1rem;
         font-family: gothemlight;
 
         @include respond(300) {
@@ -88,8 +91,7 @@
 
         @include respond(400) {
           font-size: 13px;
-          position: relative;
-          bottom: 1rem;
+        
         }
 
         @include respond(phone) {
