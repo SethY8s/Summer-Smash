@@ -355,6 +355,14 @@ header .header-logo {
   padding: 0.6rem 2.26rem;
 }
 
+.about-top {
+  border: 5px solid green;
+}
+
+.about {
+  border: 5px solid red;
+}
+
 @media only screen and (min-width: 56.25em) {
   .band-student {
     position: relative;
