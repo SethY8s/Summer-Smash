@@ -173,16 +173,19 @@ header .header-logo {
 @media only screen and (min-width: 56.25em) {
   .about div .about-image-text img {
     width: 24rem;
+    margin-top: 1.3rem;
   }
 }
 @media only screen and (min-width: 1000px) {
   .about div .about-image-text img {
     width: 27rem;
+    margin-top: 3rem;
   }
 }
 @media only screen and (min-width: 82em) {
   .about div .about-image-text img {
     width: 32rem;
+    margin-top: 1.8rem;
   }
 }
 .about div .about-image-text p {
@@ -198,6 +201,11 @@ header .header-logo {
 @media only screen and (max-width: 387px) {
   .about div .about-image-text p {
     font-size: 13px;
+  }
+}
+@media only screen and (min-width: 37.5em) {
+  .about div .about-image-text p {
+    margin-top: 0.5rem;
   }
 }
 .about div .about-image-text .about-buttons-mobile {
@@ -264,6 +272,7 @@ header .header-logo {
   .about div span {
     width: 51%;
     position: relative;
+    bottom: 1.5rem;
   }
 }
 @media only screen and (min-width: 1000px) {
@@ -346,14 +355,6 @@ header .header-logo {
 }
 .about div span .about-buttons .sponsor-button {
   padding: 0.6rem 2.26rem;
-}
-
-.about-top {
-  border: 5px solid green;
-}
-
-.about {
-  border: 5px solid red;
 }
 
 @media only screen and (min-width: 56.25em) {

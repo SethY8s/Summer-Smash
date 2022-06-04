@@ -64,16 +64,16 @@
 
         @include respond(tab-port) {
           width: 24rem;
-        //  margin-top: 1.3rem;
+         margin-top: 1.3rem;
         }
         @include respond(1001) {
           width: 27rem;
-          // margin-top: 3rem;
+          margin-top: 3rem;
         }
 
         @include respond(medium-desk) {
           width: 32rem;
-          // margin-top: 1.8rem;
+          margin-top: 1.8rem;
         }
       }
       p {
@@ -92,7 +92,7 @@
         }
 
         @include respond(phone) {
-          // margin-top: .5rem;
+          margin-top: .5rem;
         }
       }
       .about-buttons-mobile {
@@ -159,7 +159,7 @@
       @include respond(tab-port) {
         width: 51%;
         position: relative;
-        // bottom: 1.5rem;
+        bottom: 1.5rem;
       }
       @include respond(1001) {
         width: 45%;
@@ -248,9 +248,3 @@
 }
 
 
-.about-top{
-  border: 5px solid green;
-}
-.about{
-  border: 5px solid red;
-}
