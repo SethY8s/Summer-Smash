@@ -160,24 +160,20 @@ header .header-logo {
   flex-direction: column;
   justify-content: flex-end;
   flex-wrap: nowrap;
-  position: relative;
-  top: 1rem;
+}
+@media only screen and (min-width: 56.25em) {
+  .about div .about-image-text {
+    justify-content: space-around;
+  }
 }
 .about div .about-image-text img {
   width: 80%;
   border-radius: 5px;
 }
-@media only screen and (max-width: 335px) {
-  .about div .about-image-text img {
-    position: relative;
-    top: 2.5rem;
-  }
-}
 @media only screen and (min-width: 56.25em) {
   .about div .about-image-text img {
     width: 24rem;
-    position: relative;
-    bottom: 1rem;
+    margin-top: 1.3rem;
   }
 }
 @media only screen and (min-width: 1000px) {
@@ -188,6 +184,7 @@ header .header-logo {
 @media only screen and (min-width: 82em) {
   .about div .about-image-text img {
     width: 32rem;
+    margin-top: 1.3rem;
   }
 }
 .about div .about-image-text p {
@@ -252,6 +249,7 @@ header .header-logo {
   }
 }
 .about div .about-image-text .about-buttons-mobile .sponsor-button {
+  margin-bottom: 1rem;
   padding: 0.6rem 4.05rem;
 }
 @media only screen and (min-width: 37.5em) {
