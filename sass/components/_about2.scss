@@ -23,9 +23,10 @@
     // margin: 0 0 0 0rem;
     display: flex;
     flex-direction: column-reverse;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 
+  
     @include respond(tab-port) {
       flex-direction: row;
       flex-wrap: wrap;
