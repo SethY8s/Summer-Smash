@@ -164,6 +164,7 @@ header .header-logo {
   top: 1rem;
 }
 .about div .about-image-text img {
+  height: fit-content;
   width: 80%;
   border-radius: 5px;
 }
@@ -191,6 +192,7 @@ header .header-logo {
   }
 }
 .about div .about-image-text p {
+  height: fit-content;
   margin: 0;
   font-family: gothemlight;
 }
@@ -214,7 +216,7 @@ header .header-logo {
 }
 .about div .about-image-text .about-buttons-mobile {
   width: 90%;
-  height: 7rem;
+  height: fit-content;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -289,6 +291,7 @@ header .header-logo {
   }
 }
 .about div span h2 {
+  height: fit-content;
   font-size: 30px;
   text-align: center;
 }
@@ -303,6 +306,7 @@ header .header-logo {
   }
 }
 .about div span p {
+  height: fit-content;
   text-align: center;
 }
 @media only screen and (min-width: 56.25em) {
