@@ -62,11 +62,12 @@
         @include respond(tab-port) {
           width: 24rem;
           position: relative;
-          bottom: 2rem;
+          bottom: 1rem;
         }
         @include respond(1001) {
           width: 27rem;
-          margin-top: 3rem;
+        //   margin-top: 3rem;
+          bottom: 2rem;
         }
 
         @include respond(medium-desk) {
@@ -93,6 +94,8 @@
             //   margin-top: 0.5rem;
             margin-bottom: 1rem;
             margin-top: 0rem;
+            position: relative;
+            bottom: 1rem;
             }
       }
       .about-buttons-mobile {
