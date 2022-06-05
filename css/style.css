@@ -153,6 +153,7 @@ header .header-logo {
     flex-wrap: wrap;
     position: relative;
     bottom: 1rem;
+    justify-content: space-evenly;
   }
 }
 .about > div .about-image-text {
@@ -168,7 +169,7 @@ header .header-logo {
   }
 }
 .about > div .about-image-text img {
-  width: 80%;
+  width: 85%;
   border-radius: 5px;
 }
 @media only screen and (min-width: 56.25em) {
@@ -192,6 +193,7 @@ header .header-logo {
 }
 .about > div .about-image-text p {
   margin-bottom: 1rem;
+  margin-top: 0.5rem;
   font-family: gothemlight;
 }
 @media only screen and (max-width: 335px) {
@@ -203,6 +205,12 @@ header .header-logo {
 @media only screen and (max-width: 387px) {
   .about > div .about-image-text p {
     font-size: 13px;
+  }
+}
+@media only screen and (min-width: 56.25em) {
+  .about > div .about-image-text p {
+    margin-bottom: 1rem;
+    margin-top: 0rem;
   }
 }
 .about > div .about-image-text .about-buttons-mobile {
@@ -227,14 +235,19 @@ header .header-logo {
   font-family: gothemBold;
   color: #fff;
   background-color: #56b947;
-  padding: 0.6rem 3rem;
+  padding: 0.6rem 4rem;
   border-radius: 25px;
   text-decoration: none;
   color: #fff;
   margin-top: 1rem;
 }
+@media only screen and (min-width: 37.5em) {
+  .about > div .about-image-text .about-buttons-mobile a {
+    padding: 0.6rem 3rem;
+  }
+}
 .about > div .about-image-text .about-buttons-mobile .sponsor-button {
-  padding: 0.6rem 2.26rem;
+  padding: 0.6rem 3.25rem;
 }
 @media only screen and (min-width: 37.5em) {
   .about > div .about-image-text .about-buttons-mobile .sponsor-button {
@@ -259,7 +272,7 @@ header .header-logo {
   .about > div span {
     width: 51%;
     position: relative;
-    bottom: 3.1rem;
+    bottom: 2.8rem;
   }
 }
 @media only screen and (min-width: 1000px) {
@@ -306,6 +319,7 @@ header .header-logo {
 }
 .about > div span .about-contact-text {
   font-family: gothemlight;
+  font-size: 14px;
 }
 .about > div span .about-buttons {
   display: none;
@@ -314,7 +328,7 @@ header .header-logo {
   .about > div span .about-buttons {
     width: 100%;
     margin-right: 7rem;
-    margin-top: 1.3rem;
+    margin-top: 1.2rem;
     display: flex;
     justify-content: space-evenly;
   }
