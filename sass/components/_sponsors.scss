@@ -1,32 +1,26 @@
 .sponsors {
+  //   background-image: url('../assets/png/drop.png');
+  //   background-repeat: no-repeat;
+  //   background-size: cover;
+  //   background-position-y: 65%;
+  //   background-attachment: fixed;
 
+  @include respond(tab-port) {
+    margin-bottom: 4rem;
 
-//   background-image: url('../assets/png/drop.png');
-//   background-repeat: no-repeat;
-//   background-size: cover;
-//   background-position-y: 65%;
-//   background-attachment: fixed;
-
-
-
-@include respond(tab-port) {
-  margin-bottom: 4rem;
-
-// added
-position: relative;
-bottom: 3rem;
-// added end
-}
-
+    // added
+    position: relative;
+    bottom: 3rem;
+    // added end
+  }
 
   // width: 50%;
   h4 {
-    
-  margin-top: 4rem;
-  
-  @include respond(tab-port) {
-    margin-top: 0;
-  }
+    margin-top: 4rem;
+
+    @include respond(tab-port) {
+      margin-top: 0;
+    }
     // position: relative;
     // bottom: 4rem;
     text-align: center;
@@ -45,7 +39,6 @@ bottom: 3rem;
     align-items: center;
     justify-content: center;
     padding: 2rem 0 2rem;
-
 
     @include respond(phone) {
       flex-direction: row;

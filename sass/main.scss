@@ -2,38 +2,40 @@
 @import './variables-mixins/mixins';
 
 @font-face {
-    src: url("../assets/fonts/Blen.ttf");
-    font-family: blen;
+  src: url('../assets/fonts/Blen.ttf');
+  font-family: blen;
 }
 
 @font-face {
-    src: url("../assets/fonts/Gotham/Gotham-Bold.otf");
-    font-family: gothemBold;
-  }
-
-  @font-face {
-    src: url("../assets/fonts/Gotham/Gotham-Medium.otf");
-    font-family: gothem;
-  }
-
-  @font-face {
-    src: url("../assets/fonts/Gotham/Gotham-LightItalic.otf");
-    font-family: gothemLight;
-  }
-
-body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    // overflow-x: hidden;
+  src: url('../assets/fonts/Gotham/Gotham-Bold.otf');
+  font-family: gothemBold;
 }
 
- h2, h3, h4{
-    font-family: 'gothemBold';
-    font-weight: 700;
+@font-face {
+  src: url('../assets/fonts/Gotham/Gotham-Medium.otf');
+  font-family: gothem;
 }
-p{
-    font-family: 'gothem';
+
+@font-face {
+  src: url('../assets/fonts/Gotham/Gotham-LightItalic.otf');
+  font-family: gothemLight;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  // overflow-x: hidden;
+}
+
+h2,
+h3,
+h4 {
+  font-family: 'gothemBold';
+  font-weight: 700;
+}
+p {
+  font-family: 'gothem';
 }
 
 @import './components/header.scss';
@@ -42,4 +44,3 @@ p{
 @import './components/_band-student';
 @import './components/sponsors';
 @import './components/footer';
-

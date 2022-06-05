@@ -33,8 +33,6 @@ header {
   }
 }
 
-
-
 // Rain_________________________________________________
 .rain-div {
   background-image: url('../assets/png/dropsNew.png');
@@ -44,7 +42,6 @@ header {
   background-position: 50% 35%;
 
   transition: background-position 3s ease-in;
-
 }
 
 .rain-div-animation {
@@ -65,14 +62,14 @@ header {
   background-color: rgb(255, 255, 255, 0);
 }
 
-.fallingBackGround{
+.fallingBackGround {
   background-image: url('../assets/png/dropsNew.png');
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: 50% 35%; 
+  background-position: 50% 35%;
   transition: background-position 3s ease-in;
 }
 
-.fallingBackGroundEnd{
+.fallingBackGroundEnd {
   background-position: 50% 120%;
 }

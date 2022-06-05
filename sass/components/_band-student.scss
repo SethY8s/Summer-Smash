@@ -12,16 +12,13 @@
     bottom: 15rem;
   }
 
-  
-
   .band-student-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
 
-// this and image are the same thing but adding margin to img messed some things up
-    .soul-bender-image{
+    // this and image are the same thing but adding margin to img messed some things up
+    .soul-bender-image {
       margin-top: 1rem;
       @include respond(phone) {
         margin-top: 0;
@@ -30,7 +27,7 @@
 
     img {
       width: 80%;
-      
+
       @include respond(tab-port) {
         width: 60%;
         margin-top: 0rem;
@@ -39,7 +36,6 @@
       @include respond(phone) {
         margin-top: 0;
       }
-
     }
 
     h4 {
@@ -57,12 +53,9 @@
     }
 
     .at-Nina-June {
-      
-
       width: 100%;
       @include respond(tab-port) {
         width: 60%;
-       
       }
       // margin-left: 6rem; was this for at img resturant
       margin-top: 3rem;
@@ -98,7 +91,7 @@
       width: 57%;
       width: 90%;
       text-align: center;
-      @include respond(tab-port){
+      @include respond(tab-port) {
         width: 57%;
         text-align: left;
       }
