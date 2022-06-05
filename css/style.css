@@ -171,6 +171,13 @@ header .header-logo {
 .about > div .about-image-text img {
   width: 85%;
   border-radius: 5px;
+  position: relative;
+  bottom: 6px;
+}
+@media only screen and (min-width: 37.5em) {
+  .about > div .about-image-text img {
+    width: 80%;
+  }
 }
 @media only screen and (min-width: 56.25em) {
   .about > div .about-image-text img {
@@ -287,8 +294,13 @@ header .header-logo {
   }
 }
 .about > div span h2 {
-  font-size: 30px;
+  font-size: 36px;
   text-align: center;
+}
+@media only screen and (max-width: 335px) {
+  .about > div span h2 {
+    font-size: 30px;
+  }
 }
 @media only screen and (min-width: 37.5em) {
   .about > div span h2 {
